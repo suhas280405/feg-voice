@@ -11,3 +11,6 @@ ios/Pods/
 # per docs/phase-0-foundations.md.
 /*.csv
 /*.xlsx
+
+# Local git worktrees used for isolated plan execution (superpowers:using-git-worktrees).
+/.worktrees/
