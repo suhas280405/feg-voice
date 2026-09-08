@@ -116,9 +116,20 @@ async function handleConnect(req: IncomingMessage, res: ServerResponse): Promise
   }
   const { value: ephemeralKey } = (await secretRes.json()) as { value: string };
 
-  // Step 2: forward the device's offer SDP to Azure, using the ephemeral key. ?webrtcfilter=on
-  // keeps our system instructions server-side (see phase-1-voice-transport.md).
-  const callsRes = await fetch(`${AZURE_ENDPOINT}/openai/v1/realtime/calls?webrtcfilter=on`, {
+  // Step 2: forward the device's offer SDP to Azure, using the ephemeral key.
+  //
+  // DIAGNOSTIC: webrtcfilter=on temporarily disabled. Live testing showed a
+  // response fully generate and play its audio (response.output_audio_transcript.done,
+  // output_audio_buffer.stopped both fire) and then go completely silent —
+  // no function_call_arguments.done, no response.done, ever — until our own
+  // client-side watchdog gives up. webrtcfilter's documented job is exactly
+  // "restricts which events reach the device" (see docs/challenge-02-voice-agent-plan.md),
+  // making it a direct, testable candidate for events being silently dropped.
+  // Set WEBRTC_FILTER=on in .env to restore it once this is confirmed either
+  // way — do not remove this permanently without knowing the answer, since
+  // it is also what keeps the system prompt off the client for a real deploy.
+  const webrtcFilterParam = env.WEBRTC_FILTER === "on" ? "?webrtcfilter=on" : "";
+  const callsRes = await fetch(`${AZURE_ENDPOINT}/openai/v1/realtime/calls${webrtcFilterParam}`, {
     method: "POST",
     headers: { Authorization: `Bearer ${ephemeralKey}`, "Content-Type": "application/sdp" },
     body: offerSdp,
