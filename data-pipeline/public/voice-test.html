@@ -14,16 +14,18 @@
   .turn .tool .label { font-weight: bold; font-family: system-ui, sans-serif; }
   .turn .reply { margin-top: 0.5rem; }
   .error { color: #b00020; font-weight: bold; }
+  #talkBtn.listening { background: #b00020; color: #fff; }
 </style>
 </head>
 <body>
   <h1>Voice Agent Test Harness</h1>
-  <p>Testing tool only — not the iPhone prototype. Speak or type; watch how each reply gets built.</p>
+  <p>Testing tool only — not the iPhone prototype. Connect, then either click the mic to talk or just type — the mic stays off otherwise.</p>
 
   <div id="status">disconnected</div>
   <div id="controls">
     <button id="connectBtn">Connect</button>
     <button id="disconnectBtn" disabled>Disconnect</button>
+    <button id="talkBtn" disabled>🎤 Start Talking</button>
     <input id="textInput" type="text" placeholder="Or type a message..." disabled>
     <button id="sendBtn" disabled>Send</button>
   </div>
@@ -37,6 +39,7 @@
     const statusEl = document.getElementById("status");
     const connectBtn = document.getElementById("connectBtn");
     const disconnectBtn = document.getElementById("disconnectBtn");
+    const talkBtn = document.getElementById("talkBtn");
     const textInput = document.getElementById("textInput");
     const sendBtn = document.getElementById("sendBtn");
     const remoteAudio = document.getElementById("remoteAudio");
@@ -47,6 +50,7 @@
     let micStream = null;
     let toolCompletionPromise = null;
     let currentTurnEl = null;
+    let listening = false; // push-to-talk state — see toggleTalk()
 
     // --- Stall/loop hardening ---------------------------------------------
     // A live debugging session found the model narrating "let me check.../
@@ -83,20 +87,35 @@
       }
     }
 
-    // Live testing (after the guard above was already in place) caught the
-    // guard firing repeatedly, seconds apart, for the SAME turn:
-    // input_audio_buffer.speech_started/speech_stopped kept re-firing every
-    // ~1.3s throughout, and every one after the first was silently skipped
-    // by the guard — meaning the one response that DID start never got a
-    // chance to finish before the next spurious "speech" burst (self-echo
-    // or ambient noise the browser's default echo cancellation isn't fully
-    // rejecting in this environment) could have interrupted it server-side.
-    // The adversarial review argued this was unlikely in theory (default
-    // echoCancellation:true); live evidence overrides that theory. Muting
-    // the mic for the duration of a response — not just relying on
-    // server-side interrupt handling — removes the trigger at the source.
+    // Live testing caught input_audio_buffer.speech_started/speech_stopped
+    // firing repeatedly on a continuously-open mic — every ~1.3s, all
+    // session long — some real, some plausibly ambient noise/echo the
+    // browser's default echo cancellation wasn't fully rejecting in that
+    // environment. A continuously-open mic is also just wasteful: it keeps
+    // streaming audio (and burning tokens) whether or not anyone is
+    // actually talking. Fixed by dropping "always listening" entirely: the
+    // mic starts OFF right after connect() and is only ever enabled for the
+    // explicit push-to-talk window between the two toggleTalk() clicks —
+    // see connect() and toggleTalk() below. Kept as a named helper (rather
+    // than inlining track.enabled = ...) since it is also still used as a
+    // safety net while a response is generating, in requestResponse().
     function setMicEnabled(enabled) {
       if (micStream) micStream.getTracks().forEach((t) => { t.enabled = enabled; });
+    }
+
+    // Push-to-talk: click once to open the mic, click again to close it and
+    // send the turn. Deliberately NOT relying on VAD's speech_stopped to
+    // decide when the user is done (see the removed case in
+    // handleServerEvent) — an explicit second click is simpler, uses no
+    // mic time beyond what the user actually intends, and removes an entire
+    // class of timing bugs this file has already been through once.
+    function toggleTalk() {
+      listening = !listening;
+      setMicEnabled(listening);
+      talkBtn.textContent = listening ? "⏹ Stop & Send" : "🎤 Start Talking";
+      talkBtn.classList.toggle("listening", listening);
+      logToServer("talk", { listening });
+      if (!listening) requestResponse();
     }
 
     // The one place a response.create is ever sent — replaces three
@@ -141,8 +160,14 @@
     function setConnectedUi(connected) {
       connectBtn.disabled = connected;
       disconnectBtn.disabled = !connected;
+      talkBtn.disabled = !connected;
       textInput.disabled = !connected;
       sendBtn.disabled = !connected;
+      if (!connected) {
+        listening = false;
+        talkBtn.textContent = "🎤 Start Talking";
+        talkBtn.classList.remove("listening");
+      }
     }
 
     function startTurn(inputLabel) {
@@ -195,7 +220,9 @@
 
     function finishTurn() {
       currentTurnEl = null;
-      setMicEnabled(true);
+      // Deliberately does NOT re-enable the mic — push-to-talk means the
+      // mic only ever turns back on when the user explicitly clicks
+      // talkBtn again (toggleTalk()), never automatically after a turn.
       logToServer("turn-finished", {});
     }
 
@@ -244,9 +271,11 @@
           }
           break;
         }
-        case "input_audio_buffer.speech_stopped":
-          requestResponse();
-          break;
+        // input_audio_buffer.speech_started/speech_stopped are intentionally
+        // not acted on — push-to-talk (toggleTalk()) decides when a turn is
+        // sent, not VAD. Still visible in the generic dc:in log above for
+        // diagnostics (e.g. confirming the mic really is silent outside the
+        // push-to-talk window).
         case "response.output_audio_transcript.delta":
           appendReply(evt.delta ?? "");
           break;
@@ -302,6 +331,7 @@
 
         micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
         micStream.getTracks().forEach((track) => pc.addTrack(track, micStream));
+        setMicEnabled(false); // push-to-talk: mic stays off until the user explicitly clicks talkBtn
 
         const dc = pc.createDataChannel(DATA_CHANNEL_LABEL);
         dataChannel = dc;
@@ -360,6 +390,7 @@
 
     connectBtn.addEventListener("click", () => connect().catch((err) => showError(err.message)));
     disconnectBtn.addEventListener("click", disconnect);
+    talkBtn.addEventListener("click", toggleTalk);
     sendBtn.addEventListener("click", sendTypedMessage);
     textInput.addEventListener("keydown", (e) => { if (e.key === "Enter") sendTypedMessage(); });
   </script>
