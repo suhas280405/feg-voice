@@ -13,6 +13,7 @@
     "validate": "tsx src/validate.ts",
     "test:tools": "tsx src/testTools.ts",
     "test:agent": "tsx src/testAgentBehavior.ts",
+    "test:broker": "tsx src/testBrokerRoutes.ts",
     "chat": "tsx src/chatCli.ts",
     "broker": "tsx src/tokenBroker.ts"
   },

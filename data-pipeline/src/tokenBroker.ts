@@ -17,6 +17,10 @@ import { createServer, type IncomingMessage, type ServerResponse } from "node:ht
 import { readFileSync } from "node:fs";
 import { AGENT_CONFIG } from "./agentConfig.ts";
 import { buildSessionUpdate } from "./realtimeClient.ts";
+import { runTool } from "./tools.ts";
+import { recordAuditEntry } from "./auditLog.ts";
+
+const PUBLIC_HTML_PATH = new URL("../public/voice-test.html", import.meta.url);
 
 function loadEnv(): Record<string, string> {
   const content = readFileSync(new URL("../../.env", import.meta.url), "utf8");
@@ -112,10 +116,59 @@ async function handleConnect(req: IncomingMessage, res: ServerResponse): Promise
   res.end(answerSdp);
 }
 
+function handleHome(_req: IncomingMessage, res: ServerResponse): void {
+  const html = readFileSync(PUBLIC_HTML_PATH, "utf8");
+  res.writeHead(200, { "Content-Type": "text/html; charset=utf-8" });
+  res.end(html);
+}
+
+async function handleRunTool(req: IncomingMessage, res: ServerResponse): Promise<void> {
+  const bodyText = await readBody(req);
+  let parsed: { name?: unknown; argumentsJson?: unknown };
+  try {
+    parsed = JSON.parse(bodyText || "{}");
+  } catch {
+    res.writeHead(400, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ error: "Malformed JSON body — expected {name, argumentsJson}." }));
+    return;
+  }
+
+  if (typeof parsed.name !== "string" || typeof parsed.argumentsJson !== "string") {
+    res.writeHead(400, { "Content-Type": "application/json" });
+    res.end(JSON.stringify({ error: "Body must be {name: string, argumentsJson: string}." }));
+    return;
+  }
+
+  // runTool() never throws — it always returns a JSON string, even for an
+  // unknown tool name or malformed arguments (see tools.ts). recordAuditEntry
+  // is a no-op for any tool not in its explicit allowlist (Tier 1 reads).
+  const resultJson = runTool(parsed.name, parsed.argumentsJson);
+  recordAuditEntry(parsed.name, parsed.argumentsJson, resultJson);
+
+  res.writeHead(200, { "Content-Type": "application/json" });
+  res.end(resultJson);
+}
+
 const server = createServer((req, res) => {
   if (req.method === "GET" && req.url === "/health") {
     res.writeHead(200, { "Content-Type": "application/json" });
     res.end(JSON.stringify({ status: "ok" }));
+    return;
+  }
+
+  if (req.method === "GET" && req.url === "/") {
+    handleHome(req, res);
+    return;
+  }
+
+  if (req.method === "POST" && req.url === "/run-tool") {
+    handleRunTool(req, res).catch((err) => {
+      console.error("[/run-tool] unexpected error:", err);
+      if (!res.headersSent) {
+        res.writeHead(500, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: "Internal broker error" }));
+      }
+    });
     return;
   }
 
@@ -136,7 +189,9 @@ const server = createServer((req, res) => {
 
 server.listen(PORT, () => {
   console.log(`Token broker listening on http://localhost:${PORT}`);
-  console.log(`  GET  /health   — liveness check`);
-  console.log(`  POST /connect  — body: raw SDP offer, Content-Type: application/sdp -> returns answer SDP`);
+  console.log(`  GET  /          — voice test harness (open this in a browser)`);
+  console.log(`  GET  /health    — liveness check`);
+  console.log(`  POST /connect   — body: raw SDP offer, Content-Type: application/sdp -> returns answer SDP`);
+  console.log(`  POST /run-tool  — body: {name, argumentsJson} -> runs the tool, returns its JSON result`);
   console.log(`Expose to a phone with: ngrok http ${PORT}`);
 });
