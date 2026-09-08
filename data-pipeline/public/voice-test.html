@@ -48,6 +48,58 @@
     let toolCompletionPromise = null;
     let currentTurnEl = null;
 
+    // --- Stall/loop hardening ---------------------------------------------
+    // A live debugging session found the model narrating "let me check.../
+    // still searching..." indefinitely with no tool call ever completing and
+    // no visible failure. Root cause was investigated thoroughly (protocol
+    // research + adversarial review) but the exact external trigger was not
+    // pinned with certainty — candidates include a documented Azure gap
+    // where semantic_vad's turn_detection is silently not honored, an
+    // Azure-side response.done status of "failed"/"cancelled", or the model
+    // simply narrating without invoking a real tool call. What IS certain,
+    // confirmed independently by every reviewer: this file never guarded
+    // against sending a duplicate response.create, never inspected
+    // response.done's status, and never gave up on a stalled turn — so any
+    // one of those triggers produced a silent stall or an unbounded loop.
+    // These three additions close that regardless of which trigger is real.
+    let responseActive = false;
+    let watchdogTimer = null;
+    const WATCHDOG_MS = 15000; // generous — /run-tool is a local, synchronous-fast call
+
+    function startWatchdog() {
+      clearWatchdog();
+      watchdogTimer = setTimeout(() => {
+        showError("No response after 15s — the model or a tool call may be stuck. Please try again.");
+        responseActive = false;
+        toolCompletionPromise = null;
+        finishTurn();
+      }, WATCHDOG_MS);
+    }
+
+    function clearWatchdog() {
+      if (watchdogTimer) {
+        clearTimeout(watchdogTimer);
+        watchdogTimer = null;
+      }
+    }
+
+    // The one place a response.create is ever sent — replaces three
+    // separate unconditional call sites. Guards against the exact defect
+    // every reviewer confirmed: sending response.create while a response is
+    // already active either errors ("conversation_already_has_active_response",
+    // the same class of race already fixed once in this file for tool-call
+    // continuations) or — worse — silently starts a redundant response on
+    // top of one that's still generating.
+    function requestResponse() {
+      if (responseActive) {
+        console.log("[guard] response already active — skipping duplicate response.create");
+        return;
+      }
+      responseActive = true;
+      sendEvent({ type: "response.create" });
+      startWatchdog();
+    }
+
     function setStatus(text) {
       statusEl.textContent = text;
     }
@@ -119,6 +171,7 @@
     }
 
     function sendEvent(obj) {
+      console.log("[dc:out]", obj.type, obj);
       dataChannel.send(JSON.stringify(obj));
     }
 
@@ -137,9 +190,23 @@
     }
 
     function handleServerEvent(evt) {
+      console.log("[dc:in]", evt.type, evt);
       switch (evt.type) {
+        case "session.updated": {
+          // Master-plan risk, never actually verified until now: Azure has
+          // been reported to silently accept semantic_vad in session.update
+          // without honoring it. Assert on the echo so a silent VAD
+          // mismatch shows up here instead of masquerading as this bug.
+          const actualType = evt.session?.audio?.input?.turn_detection?.type;
+          if (actualType !== "semantic_vad") {
+            console.warn(`[session] Azure did NOT honor semantic_vad turn_detection (got "${actualType}"). VAD behavior may differ from what this page assumes — see docs/challenge-02-voice-agent-plan.md risks table.`);
+          } else {
+            console.log("[session] semantic_vad confirmed active.");
+          }
+          break;
+        }
         case "input_audio_buffer.speech_stopped":
-          sendEvent({ type: "response.create" });
+          requestResponse();
           break;
         case "response.output_audio_transcript.delta":
           appendReply(evt.delta ?? "");
@@ -149,17 +216,37 @@
           toolCompletionPromise = runToolOnBroker(evt.call_id, evt.name, evt.arguments);
           break;
         case "response.done":
+          responseActive = false;
+          if (evt.status && evt.status !== "completed") {
+            // The response ended without completing normally — cancelled
+            // (server-side barge-in), failed (an Azure server_error), or
+            // incomplete. Previously this was silently treated exactly like
+            // a normal completion, which is precisely the "illusion of
+            // progress" the live test surfaced: the model would narrate
+            // "still searching" and the turn would just quietly end with no
+            // tool call ever rendered and nothing told to the user.
+            clearWatchdog();
+            toolCompletionPromise = null;
+            const detail = evt.status_details ? `: ${JSON.stringify(evt.status_details)}` : "";
+            showError(`Response ended without completing (status: ${evt.status}${detail}). The data may be unavailable — try asking again.`);
+            finishTurn();
+            break;
+          }
           if (toolCompletionPromise) {
             const promise = toolCompletionPromise;
             toolCompletionPromise = null;
             promise.then(() => {
-              sendEvent({ type: "response.create" });
+              requestResponse();
             });
           } else {
+            clearWatchdog();
             finishTurn();
           }
           break;
         case "error":
+          clearWatchdog();
+          responseActive = false;
+          toolCompletionPromise = null;
           showError(JSON.stringify(evt));
           break;
       }
@@ -213,6 +300,8 @@
       micStream = null;
       toolCompletionPromise = null;
       currentTurnEl = null;
+      responseActive = false;
+      clearWatchdog();
       setStatus("disconnected");
       setConnectedUi(false);
     }
@@ -226,7 +315,7 @@
         type: "conversation.item.create",
         item: { type: "message", role: "user", content: [{ type: "input_text", text }] },
       });
-      sendEvent({ type: "response.create" });
+      requestResponse();
     }
 
     connectBtn.addEventListener("click", () => connect().catch((err) => showError(err.message)));
