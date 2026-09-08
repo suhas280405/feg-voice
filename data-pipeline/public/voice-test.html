@@ -3,9 +3,229 @@
 <head>
 <meta charset="utf-8">
 <title>Voice Agent Test Harness</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; }
+  #status { font-weight: bold; }
+  #controls { margin: 1rem 0; display: flex; gap: 0.5rem; align-items: center; }
+  #textInput { flex: 1; padding: 0.4rem; }
+  .turn { border: 1px solid #ccc; border-radius: 8px; padding: 0.75rem 1rem; margin-bottom: 1rem; }
+  .turn .input { color: #555; }
+  .turn .tool { background: #f5f5f5; border-radius: 6px; padding: 0.5rem; margin: 0.5rem 0; font-family: monospace; font-size: 0.9em; white-space: pre-wrap; }
+  .turn .tool .label { font-weight: bold; font-family: system-ui, sans-serif; }
+  .turn .reply { margin-top: 0.5rem; }
+  .error { color: #b00020; font-weight: bold; }
+</style>
 </head>
 <body>
-<h1>Voice Agent Test Harness</h1>
-<p>Placeholder — Task 2 of docs/superpowers/plans/2026-09-08-voice-test-harness.md fills this in.</p>
+  <h1>Voice Agent Test Harness</h1>
+  <p>Testing tool only — not the iPhone prototype. Speak or type; watch how each reply gets built.</p>
+
+  <div id="status">disconnected</div>
+  <div id="controls">
+    <button id="connectBtn">Connect</button>
+    <button id="disconnectBtn" disabled>Disconnect</button>
+    <input id="textInput" type="text" placeholder="Or type a message..." disabled>
+    <button id="sendBtn" disabled>Send</button>
+  </div>
+  <audio id="remoteAudio" autoplay></audio>
+
+  <div id="turns"></div>
+
+  <script>
+    const DATA_CHANNEL_LABEL = "oai-events"; // swap to "realtime-channel" if events never arrive
+
+    const statusEl = document.getElementById("status");
+    const connectBtn = document.getElementById("connectBtn");
+    const disconnectBtn = document.getElementById("disconnectBtn");
+    const textInput = document.getElementById("textInput");
+    const sendBtn = document.getElementById("sendBtn");
+    const remoteAudio = document.getElementById("remoteAudio");
+    const turnsEl = document.getElementById("turns");
+
+    let peerConnection = null;
+    let dataChannel = null;
+    let micStream = null;
+    let needsContinuation = false;
+    let currentTurnEl = null;
+
+    function setStatus(text) {
+      statusEl.textContent = text;
+    }
+
+    function setConnectedUi(connected) {
+      connectBtn.disabled = connected;
+      disconnectBtn.disabled = !connected;
+      textInput.disabled = !connected;
+      sendBtn.disabled = !connected;
+    }
+
+    function startTurn(inputLabel) {
+      currentTurnEl = document.createElement("div");
+      currentTurnEl.className = "turn";
+      currentTurnEl.innerHTML = `<div class="input">${inputLabel}</div>`;
+      turnsEl.appendChild(currentTurnEl);
+      return currentTurnEl;
+    }
+
+    function ensureTurn() {
+      // A voice turn has no client-side transcript (no input transcription
+      // model configured — see the design spec's Global Constraints); it
+      // starts on the first server event we see for it, labeled generically.
+      if (!currentTurnEl) startTurn("🎤 (spoken input)");
+      return currentTurnEl;
+    }
+
+    function renderToolCall(name, argumentsJson) {
+      const turn = ensureTurn();
+      const div = document.createElement("div");
+      div.className = "tool";
+      let pretty = argumentsJson;
+      try { pretty = JSON.stringify(JSON.parse(argumentsJson), null, 2); } catch {}
+      div.innerHTML = `<div class="label">🔧 Tool called: ${name}</div>${pretty}`;
+      turn.appendChild(div);
+    }
+
+    function renderToolResult(resultJson) {
+      const turn = ensureTurn();
+      const div = document.createElement("div");
+      div.className = "tool";
+      let pretty = resultJson;
+      try { pretty = JSON.stringify(JSON.parse(resultJson), null, 2); } catch {}
+      div.innerHTML = `<div class="label">📦 Tool returned:</div>${pretty}`;
+      turn.appendChild(div);
+    }
+
+    function appendReply(deltaText) {
+      const turn = ensureTurn();
+      let replyEl = turn.querySelector(".reply");
+      if (!replyEl) {
+        replyEl = document.createElement("div");
+        replyEl.className = "reply";
+        replyEl.innerHTML = `<span class="label">💬 Agent replied:</span> `;
+        turn.appendChild(replyEl);
+      }
+      replyEl.append(deltaText);
+    }
+
+    function finishTurn() {
+      currentTurnEl = null;
+    }
+
+    function showError(text) {
+      const div = document.createElement("div");
+      div.className = "error";
+      div.textContent = `⚠ ${text}`;
+      (currentTurnEl ?? turnsEl).appendChild(div);
+    }
+
+    function sendEvent(obj) {
+      dataChannel.send(JSON.stringify(obj));
+    }
+
+    async function runToolOnBroker(callId, name, argumentsJson) {
+      const res = await fetch("/run-tool", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name, argumentsJson }),
+      });
+      const resultJson = await res.text();
+      renderToolResult(resultJson);
+      sendEvent({
+        type: "conversation.item.create",
+        item: { type: "function_call_output", call_id: callId, output: resultJson },
+      });
+    }
+
+    function handleServerEvent(evt) {
+      switch (evt.type) {
+        case "input_audio_buffer.speech_stopped":
+          sendEvent({ type: "response.create" });
+          break;
+        case "response.output_audio_transcript.delta":
+          appendReply(evt.delta ?? "");
+          break;
+        case "response.function_call_arguments.done":
+          renderToolCall(evt.name, evt.arguments);
+          runToolOnBroker(evt.call_id, evt.name, evt.arguments);
+          needsContinuation = true;
+          break;
+        case "response.done":
+          if (needsContinuation) {
+            needsContinuation = false;
+            sendEvent({ type: "response.create" });
+          } else {
+            finishTurn();
+          }
+          break;
+        case "error":
+          showError(JSON.stringify(evt));
+          break;
+      }
+    }
+
+    async function connect() {
+      setStatus("connecting...");
+      const pc = new RTCPeerConnection({ iceServers: [{ urls: "stun:stun.l.google.com:19302" }] });
+      peerConnection = pc;
+
+      pc.ontrack = (event) => { remoteAudio.srcObject = event.streams[0]; };
+
+      micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      micStream.getTracks().forEach((track) => pc.addTrack(track, micStream));
+
+      const dc = pc.createDataChannel(DATA_CHANNEL_LABEL);
+      dataChannel = dc;
+      dc.onopen = () => { setStatus("connected"); setConnectedUi(true); };
+      dc.onmessage = (event) => handleServerEvent(JSON.parse(event.data));
+      dc.onerror = (event) => showError(`Data channel error: ${JSON.stringify(event)}`);
+
+      const offer = await pc.createOffer();
+      await pc.setLocalDescription(offer);
+
+      const res = await fetch("/connect", {
+        method: "POST",
+        headers: { "Content-Type": "application/sdp" },
+        body: offer.sdp,
+      });
+      if (!res.ok) {
+        const detail = await res.text();
+        setStatus("error — see below");
+        showError(`/connect failed (${res.status}): ${detail}`);
+        return;
+      }
+      const answerSdp = await res.text();
+      await pc.setRemoteDescription({ type: "answer", sdp: answerSdp });
+    }
+
+    function disconnect() {
+      if (dataChannel) dataChannel.close();
+      if (peerConnection) peerConnection.close();
+      if (micStream) micStream.getTracks().forEach((t) => t.stop());
+      dataChannel = null;
+      peerConnection = null;
+      micStream = null;
+      needsContinuation = false;
+      currentTurnEl = null;
+      setStatus("disconnected");
+      setConnectedUi(false);
+    }
+
+    function sendTypedMessage() {
+      const text = textInput.value.trim();
+      if (!text) return;
+      textInput.value = "";
+      startTurn(`⌨️ You typed: "${text}"`);
+      sendEvent({
+        type: "conversation.item.create",
+        item: { type: "message", role: "user", content: [{ type: "input_text", text }] },
+      });
+      sendEvent({ type: "response.create" });
+    }
+
+    connectBtn.addEventListener("click", () => connect().catch((err) => showError(err.message)));
+    disconnectBtn.addEventListener("click", disconnect);
+    sendBtn.addEventListener("click", sendTypedMessage);
+    textInput.addEventListener("keydown", (e) => { if (e.key === "Enter") sendTypedMessage(); });
+  </script>
 </body>
 </html>
