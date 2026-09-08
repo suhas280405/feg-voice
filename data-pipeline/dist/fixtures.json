@@ -1,0 +1,488 @@
+[
+  {
+    "id": "demo:mtch:ind-aus-t20",
+    "sportId": "ufo:sprt:0k",
+    "sportNameEn": "Cricket",
+    "sportNameHr": "Kriket",
+    "tournamentId": "demo:tour:ind-aus-t20-series",
+    "tournamentNameEn": "International T20",
+    "tournamentNameHr": "Međunarodni T20",
+    "seoName": "indija-australija-t20",
+    "home": {
+      "id": "demo:team:india",
+      "name": "India",
+      "nameEn": "India"
+    },
+    "away": {
+      "id": "demo:team:australia",
+      "name": "Australia",
+      "nameEn": "Australia"
+    },
+    "kickoffUtc": "2026-09-08T10:36:10.523Z",
+    "status": "LIVE",
+    "liveScore": {
+      "home": 134,
+      "away": 178,
+      "gameTime": "Innings 2, 15.2 overs (chasing 179)"
+    },
+    "marketIds": [
+      "demo:mkt:ind-aus-t20-winner"
+    ],
+    "isSynthetic": true
+  },
+  {
+    "id": "ufo:mtch:1vu-1cw",
+    "sportId": "ufo:sprt:0k",
+    "sportNameEn": "Cricket",
+    "sportNameHr": "Kriket",
+    "tournamentId": "ufo:tour:0k-00n",
+    "tournamentNameEn": "Women's T20 Asia Cup",
+    "tournamentNameHr": "T20 Asia Cup (ž)",
+    "seoName": "uae-banglades",
+    "home": {
+      "id": "ufo:team:0k-0046",
+      "name": "UAE"
+    },
+    "away": {
+      "id": "ufo:team:0k-002m",
+      "name": "Bangladeš",
+      "nameEn": "Bangladesh"
+    },
+    "kickoffUtc": "2026-09-08T14:30:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-1cw-000"
+    ],
+    "isSynthetic": false,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "ufo:mtch:1vu-03h",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "cl-brugge-aston-villa",
+    "home": {
+      "id": "ufo:team:00-02fe",
+      "name": "Cl.Brugge"
+    },
+    "away": {
+      "id": "ufo:team:00-040k",
+      "name": "Aston Villa"
+    },
+    "kickoffUtc": "2026-09-08T16:45:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03h-024",
+      "ufo:mkt:1vu-03h-00s",
+      "ufo:mkt:1vu-03h-025",
+      "ufo:mkt:1vu-03h-00p",
+      "ufo:mkt:1vu-03h-01b",
+      "ufo:mkt:1vu-03h-00y",
+      "ufo:mkt:1vu-03h-00v",
+      "ufo:mkt:1vu-03h-014",
+      "ufo:mkt:1vu-03h-011",
+      "ufo:mkt:1vu-03h-010",
+      "ufo:mkt:1vu-03h-017",
+      "ufo:mkt:1vu-03h-002",
+      "ufo:mkt:1vu-03h-001",
+      "ufo:mkt:1vu-03h-000",
+      "ufo:mkt:1vu-03h-009",
+      "ufo:mkt:1vu-03h-005",
+      "ufo:mkt:1vu-03h-008",
+      "ufo:mkt:1vu-03h-06t",
+      "ufo:mkt:1vu-03h-07g",
+      "ufo:mkt:1vu-03h-02s",
+      "ufo:mkt:1vu-03h-02p",
+      "ufo:mkt:1vu-03h-02r",
+      "ufo:mkt:1vu-03h-02g",
+      "ufo:mkt:1vu-03h-03a",
+      "ufo:mkt:1vu-03h-01u",
+      "ufo:mkt:1vu-03h-036",
+      "ufo:mkt:1vu-03h-01t",
+      "ufo:mkt:1vu-03h-01l",
+      "ufo:mkt:1vu-03h-02e",
+      "ufo:mkt:1vu-03h-02b",
+      "ufo:mkt:1vu-03h-01y"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 18:45:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-03i",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "aek-atena-lask-linz",
+    "home": {
+      "id": "ufo:team:00-02tw",
+      "name": "AEK Atena"
+    },
+    "away": {
+      "id": "ufo:team:00-00lc",
+      "name": "LASK Linz"
+    },
+    "kickoffUtc": "2026-09-08T16:45:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03i-02x",
+      "ufo:mkt:1vu-03i-02w",
+      "ufo:mkt:1vu-03i-02q",
+      "ufo:mkt:1vu-03i-02g",
+      "ufo:mkt:1vu-03i-01u",
+      "ufo:mkt:1vu-03i-032",
+      "ufo:mkt:1vu-03i-034",
+      "ufo:mkt:1vu-03i-01r",
+      "ufo:mkt:1vu-03i-01l",
+      "ufo:mkt:1vu-03i-01k",
+      "ufo:mkt:1vu-03i-00w",
+      "ufo:mkt:1vu-03i-00u",
+      "ufo:mkt:1vu-03i-00y",
+      "ufo:mkt:1vu-03i-021",
+      "ufo:mkt:1vu-03i-00l",
+      "ufo:mkt:1vu-03i-00r",
+      "ufo:mkt:1vu-03i-00p",
+      "ufo:mkt:1vu-03i-00i",
+      "ufo:mkt:1vu-03i-00b",
+      "ufo:mkt:1vu-03i-016",
+      "ufo:mkt:1vu-03i-015",
+      "ufo:mkt:1vu-03i-010",
+      "ufo:mkt:1vu-03i-013",
+      "ufo:mkt:1vu-03i-006",
+      "ufo:mkt:1vu-03i-005",
+      "ufo:mkt:1vu-03i-002",
+      "ufo:mkt:1vu-03i-001",
+      "ufo:mkt:1vu-03i-000",
+      "ufo:mkt:1vu-03i-1er",
+      "ufo:mkt:1vu-03i-1br",
+      "ufo:mkt:1vu-03i-113",
+      "ufo:mkt:1vu-03i-112"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 18:45:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-03g",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "bor-dortmund-villarreal",
+    "home": {
+      "id": "ufo:team:00-0250",
+      "name": "Bor.Dortmund"
+    },
+    "away": {
+      "id": "ufo:team:00-02cq",
+      "name": "Villarreal"
+    },
+    "kickoffUtc": "2026-09-08T19:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03g-02e",
+      "ufo:mkt:1vu-03g-02d",
+      "ufo:mkt:1vu-03g-02c",
+      "ufo:mkt:1vu-03g-01z",
+      "ufo:mkt:1vu-03g-037",
+      "ufo:mkt:1vu-03g-035",
+      "ufo:mkt:1vu-03g-01i",
+      "ufo:mkt:1vu-03g-02z",
+      "ufo:mkt:1vu-03g-02x",
+      "ufo:mkt:1vu-03g-02v",
+      "ufo:mkt:1vu-03g-02p",
+      "ufo:mkt:1vu-03g-02n",
+      "ufo:mkt:1vu-03g-02m",
+      "ufo:mkt:1vu-03g-02j",
+      "ufo:mkt:1vu-03g-02i",
+      "ufo:mkt:1vu-03g-015",
+      "ufo:mkt:1vu-03g-01b",
+      "ufo:mkt:1vu-03g-00z",
+      "ufo:mkt:1vu-03g-00w",
+      "ufo:mkt:1vu-03g-00p",
+      "ufo:mkt:1vu-03g-00m",
+      "ufo:mkt:1vu-03g-00i",
+      "ufo:mkt:1vu-03g-00h",
+      "ufo:mkt:1vu-03g-00g",
+      "ufo:mkt:1vu-03g-006",
+      "ufo:mkt:1vu-03g-002",
+      "ufo:mkt:1vu-03g-001",
+      "ufo:mkt:1vu-03g-000",
+      "ufo:mkt:1vu-03g-07s",
+      "ufo:mkt:1vu-03g-07g",
+      "ufo:mkt:1vu-03g-081",
+      "ufo:mkt:1vu-03g-0xq"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 21:00:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-03j",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "porto-man-city",
+    "home": {
+      "id": "ufo:team:00-02jl",
+      "name": "Porto"
+    },
+    "away": {
+      "id": "ufo:team:00-00ov",
+      "name": "Man.City"
+    },
+    "kickoffUtc": "2026-09-08T19:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03j-002",
+      "ufo:mkt:1vu-03j-001",
+      "ufo:mkt:1vu-03j-003",
+      "ufo:mkt:1vu-03j-005",
+      "ufo:mkt:1vu-03j-007",
+      "ufo:mkt:1vu-03j-010",
+      "ufo:mkt:1vu-03j-013",
+      "ufo:mkt:1vu-03j-00b",
+      "ufo:mkt:1vu-03j-014",
+      "ufo:mkt:1vu-03j-00k",
+      "ufo:mkt:1vu-03j-021",
+      "ufo:mkt:1vu-03j-00d",
+      "ufo:mkt:1vu-03j-00c",
+      "ufo:mkt:1vu-03j-00h",
+      "ufo:mkt:1vu-03j-00j",
+      "ufo:mkt:1vu-03j-00i",
+      "ufo:mkt:1vu-03j-00s",
+      "ufo:mkt:1vu-03j-028",
+      "ufo:mkt:1vu-03j-00u",
+      "ufo:mkt:1vu-03j-00w",
+      "ufo:mkt:1vu-03j-00z",
+      "ufo:mkt:1vu-03j-01m",
+      "ufo:mkt:1vu-03j-031",
+      "ufo:mkt:1vu-03j-02b",
+      "ufo:mkt:1vu-03j-02d",
+      "ufo:mkt:1vu-03j-02c",
+      "ufo:mkt:1vu-03j-01t",
+      "ufo:mkt:1vu-03j-01y",
+      "ufo:mkt:1vu-03j-02p",
+      "ufo:mkt:1vu-03j-077",
+      "ufo:mkt:1vu-03j-06z"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 21:00:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-03k",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "real-madrid-inter-m",
+    "home": {
+      "id": "ufo:team:00-02d4",
+      "name": "Real Madrid"
+    },
+    "away": {
+      "id": "ufo:team:00-0261",
+      "name": "Inter M."
+    },
+    "kickoffUtc": "2026-09-08T19:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03k-008",
+      "ufo:mkt:1vu-03k-005",
+      "ufo:mkt:1vu-03k-004",
+      "ufo:mkt:1vu-03k-003",
+      "ufo:mkt:1vu-03k-000",
+      "ufo:mkt:1vu-03k-013",
+      "ufo:mkt:1vu-03k-011",
+      "ufo:mkt:1vu-03k-00y",
+      "ufo:mkt:1vu-03k-00v",
+      "ufo:mkt:1vu-03k-00s",
+      "ufo:mkt:1vu-03k-00e",
+      "ufo:mkt:1vu-03k-00b",
+      "ufo:mkt:1vu-03k-020",
+      "ufo:mkt:1vu-03k-00n",
+      "ufo:mkt:1vu-03k-00m",
+      "ufo:mkt:1vu-03k-00j",
+      "ufo:mkt:1vu-03k-038",
+      "ufo:mkt:1vu-03k-01u",
+      "ufo:mkt:1vu-03k-036",
+      "ufo:mkt:1vu-03k-01g",
+      "ufo:mkt:1vu-03k-01d",
+      "ufo:mkt:1vu-03k-031",
+      "ufo:mkt:1vu-03k-01k",
+      "ufo:mkt:1vu-03k-02y",
+      "ufo:mkt:1vu-03k-02w",
+      "ufo:mkt:1vu-03k-02u",
+      "ufo:mkt:1vu-03k-03b",
+      "ufo:mkt:1vu-03k-02f",
+      "ufo:mkt:1vu-03k-02e",
+      "ufo:mkt:1vu-03k-06m",
+      "ufo:mkt:1vu-03k-06q",
+      "ufo:mkt:1vu-03k-15r"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 21:00:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-03l",
+    "sportId": "ufo:sprt:00",
+    "sportNameEn": "Football",
+    "sportNameHr": "Nogomet",
+    "tournamentId": "ufo:tour:00-0fy",
+    "tournamentNameEn": "Champions League",
+    "tournamentNameHr": "Liga prvaka",
+    "seoName": "lille-betis",
+    "home": {
+      "id": "ufo:team:00-00la",
+      "name": "Lille"
+    },
+    "away": {
+      "id": "ufo:team:00-02ck",
+      "name": "Betis"
+    },
+    "kickoffUtc": "2026-09-08T19:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-03l-02i",
+      "ufo:mkt:1vu-03l-02m",
+      "ufo:mkt:1vu-03l-01h",
+      "ufo:mkt:1vu-03l-01b",
+      "ufo:mkt:1vu-03l-01n",
+      "ufo:mkt:1vu-03l-033",
+      "ufo:mkt:1vu-03l-01p",
+      "ufo:mkt:1vu-03l-01k",
+      "ufo:mkt:1vu-03l-039",
+      "ufo:mkt:1vu-03l-01y",
+      "ufo:mkt:1vu-03l-034",
+      "ufo:mkt:1vu-03l-01t",
+      "ufo:mkt:1vu-03l-01z",
+      "ufo:mkt:1vu-03l-003",
+      "ufo:mkt:1vu-03l-00h",
+      "ufo:mkt:1vu-03l-00a",
+      "ufo:mkt:1vu-03l-00c",
+      "ufo:mkt:1vu-03l-00m",
+      "ufo:mkt:1vu-03l-022",
+      "ufo:mkt:1vu-03l-00o",
+      "ufo:mkt:1vu-03l-00v",
+      "ufo:mkt:1vu-03l-00x",
+      "ufo:mkt:1vu-03l-023",
+      "ufo:mkt:1vu-03l-00q",
+      "ufo:mkt:1vu-03l-00t",
+      "ufo:mkt:1vu-03l-026",
+      "ufo:mkt:1vu-03l-025",
+      "ufo:mkt:1vu-03l-01a",
+      "ufo:mkt:1vu-03l-00z",
+      "ufo:mkt:1vu-03l-0b1",
+      "ufo:mkt:1vu-03l-0as"
+    ],
+    "isSynthetic": false,
+    "status": "LIVE",
+    "liveScore": {
+      "home": 0,
+      "away": 0,
+      "gameTime": "Počinje u 8. ruj 2026. 21:00:00"
+    }
+  },
+  {
+    "id": "ufo:mtch:1vu-1ug",
+    "sportId": "ufo:sprt:0k",
+    "sportNameEn": "Cricket",
+    "sportNameHr": "Kriket",
+    "tournamentId": "ufo:tour:0k-007",
+    "tournamentNameEn": "Caribbean Premier League",
+    "tournamentNameHr": "Zap. Indija - Caribbean Premier League",
+    "seoName": "guyana-amazon-warriors-antigua-and-barbuda-falcons",
+    "home": {
+      "id": "ufo:team:0k-001z",
+      "name": "Guyana Amazon Warriors"
+    },
+    "away": {
+      "id": "ufo:team:0k-005l",
+      "name": "Antigua And Barbuda Falcons"
+    },
+    "kickoffUtc": "2026-09-08T23:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vu-1ug-000"
+    ],
+    "isSynthetic": false,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "ufo:mtch:1vv-0cj",
+    "sportId": "ufo:sprt:0k",
+    "sportNameEn": "Cricket",
+    "sportNameHr": "Kriket",
+    "tournamentId": "ufo:tour:0k-002",
+    "tournamentNameEn": "Test Series (Friendly)",
+    "tournamentNameHr": "Prijateljske utakmice - Test Series",
+    "seoName": "engleska-pakistan",
+    "home": {
+      "id": "ufo:team:0k-0002",
+      "name": "Engleska",
+      "nameEn": "England"
+    },
+    "away": {
+      "id": "ufo:team:0k-000o",
+      "name": "Pakistan"
+    },
+    "kickoffUtc": "2026-09-09T10:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vv-0cj-000"
+    ],
+    "isSynthetic": false,
+    "status": "SCHEDULED"
+  },
+  {
+    "id": "ufo:mtch:1vw-09s",
+    "sportId": "ufo:sprt:0k",
+    "sportNameEn": "Cricket",
+    "sportNameHr": "Kriket",
+    "tournamentId": "ufo:tour:0k-007",
+    "tournamentNameEn": "Caribbean Premier League",
+    "tournamentNameHr": "Zap. Indija - Caribbean Premier League",
+    "seoName": "barbados-royals-saint-kitts-and-nevis-patriots",
+    "home": {
+      "id": "ufo:team:0k-0014",
+      "name": "Barbados Royals"
+    },
+    "away": {
+      "id": "ufo:team:0k-0020",
+      "name": "Saint Kitts and Nevis Patriots"
+    },
+    "kickoffUtc": "2026-09-10T23:00:00.000Z",
+    "marketIds": [
+      "ufo:mkt:1vw-09s-000"
+    ],
+    "isSynthetic": false,
+    "status": "SCHEDULED"
+  }
+]

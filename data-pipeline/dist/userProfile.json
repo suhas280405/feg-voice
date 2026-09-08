@@ -1,0 +1,34 @@
+{
+  "userId": "demo-user-aggregate-01",
+  "favouriteTeams": [
+    "Dinamo Zagreb",
+    "Hajduk Split",
+    "Rijeka",
+    "Barcelona",
+    "Lyon"
+  ],
+  "followedTournaments": [
+    "Conference League",
+    "1.Spain",
+    "1.England",
+    "1.Italy",
+    "Champions League"
+  ],
+  "openTickets": [
+    {
+      "id": "demo:ticket:sample-open-1",
+      "fixtureId": "ufo:mtch:1vu-03h",
+      "market": "Osnovna ponuda",
+      "stake": 12,
+      "potentialReturn": 31.2
+    }
+  ],
+  "walletBalance": {
+    "amount": 480,
+    "currency": "EUR"
+  },
+  "limits": {
+    "sessionStakeLimit": 60,
+    "currency": "EUR"
+  }
+}

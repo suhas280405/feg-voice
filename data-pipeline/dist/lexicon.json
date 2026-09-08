@@ -1,0 +1,162 @@
+[
+  {
+    "marketTypeNameHr": "1.poluvrijeme",
+    "canonicalMarket": "HALF_TIME_1X2",
+    "englishLabel": "1st Half – Result",
+    "outcomeLabelsEn": {
+      "1": "Home",
+      "2": "Away",
+      "X": "Draw"
+    }
+  },
+  {
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "canonicalMarket": "HALF_TIME_OVER_UNDER",
+    "englishLabel": "1st Half – Total Goals",
+    "outcomeLabelsEn": {
+      "manje 1.5": "Under 1.5",
+      "više 1.5": "Over 1.5",
+      "više 1": "Over Home",
+      "manje 1": "Under Home",
+      "više 2": "Over Away",
+      "manje 2": "Under Away",
+      "manje 0.5": "Under 0.5",
+      "više 0.5": "Over 0.5",
+      "više 2.5": "Over 2.5",
+      "manje 2.5": "Under 2.5"
+    }
+  },
+  {
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "canonicalMarket": "DRAW_NO_BET",
+    "englishLabel": "Draw No Bet",
+    "outcomeLabelsEn": {
+      "1": "Home",
+      "2": "Away"
+    }
+  },
+  {
+    "marketTypeNameHr": "Konačni pobjednik",
+    "canonicalMarket": "MATCH_WINNER_NO_DRAW",
+    "englishLabel": "Match Winner",
+    "outcomeLabelsEn": {
+      "1": "Home",
+      "2": "Away"
+    }
+  },
+  {
+    "marketTypeNameHr": "Oba daju gol",
+    "canonicalMarket": "BTTS",
+    "englishLabel": "Both Teams to Score",
+    "outcomeLabelsEn": {
+      "Ne": "No",
+      "Da": "Yes"
+    }
+  },
+  {
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "canonicalMarket": "BTTS_OVER_UNDER",
+    "englishLabel": "Both Teams to Score & Total Goals",
+    "outcomeLabelsEn": {
+      "Ne/manje 2.5": "No & Under 2.5",
+      "Ne/više 2.5": "No & Over 2.5",
+      "Da/manje 2.5": "Yes & Under 2.5",
+      "Da/više 2.5": "Yes & Over 2.5"
+    }
+  },
+  {
+    "marketTypeNameHr": "Osnovna ponuda",
+    "canonicalMarket": "1X2",
+    "englishLabel": "Match Winner",
+    "outcomeLabelsEn": {
+      "1": "Home",
+      "2": "Away",
+      "X": "Draw"
+    }
+  },
+  {
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "canonicalMarket": "DOUBLE_CHANCE",
+    "englishLabel": "Double Chance",
+    "outcomeLabelsEn": {
+      "12": "Home or Away",
+      "1X": "Home or Draw",
+      "X2": "Draw or Away"
+    }
+  },
+  {
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "canonicalMarket": "HALF_TIME_FULL_TIME",
+    "englishLabel": "Half Time / Full Time",
+    "outcomeLabelsEn": {
+      "1": "Home",
+      "2": "Away",
+      "X": "Draw"
+    }
+  },
+  {
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "canonicalMarket": "TEAM_OVER_UNDER",
+    "englishLabel": "Home Team – Total Goals",
+    "outcomeLabelsEn": {
+      "manje 2.5": "Under 2.5",
+      "više 2.5": "Over 2.5",
+      "više 3.5": "Over 3.5",
+      "manje 3.5": "Under 3.5",
+      "više 0.5": "Over 0.5",
+      "manje 0.5": "Under 0.5",
+      "više 1.5": "Over 1.5",
+      "manje 1.5": "Under 1.5",
+      "manje 4.5": "Under 4.5",
+      "više 4.5": "Over 4.5"
+    }
+  },
+  {
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "canonicalMarket": "TEAM_OVER_UNDER",
+    "englishLabel": "Away Team – Total Goals",
+    "outcomeLabelsEn": {
+      "više 2.5": "Over 2.5",
+      "manje 2.5": "Under 2.5",
+      "manje 0.5": "Under 0.5",
+      "više 0.5": "Over 0.5",
+      "manje 1.5": "Under 1.5",
+      "više 1.5": "Over 1.5",
+      "manje 3.5": "Under 3.5",
+      "više 3.5": "Over 3.5",
+      "manje 4.5": "Under 4.5",
+      "više 4.5": "Over 4.5"
+    }
+  },
+  {
+    "marketTypeNameHr": "Zbroj golova",
+    "canonicalMarket": "OVER_UNDER",
+    "englishLabel": "Total Goals",
+    "outcomeLabelsEn": {
+      "više 5.5": "Over 5.5",
+      "manje 5.5": "Under 5.5",
+      "više 3": "Over 3",
+      "manje 3": "Under 3",
+      "manje 1": "Under Home",
+      "više 1": "Over Home",
+      "više 3.5": "Over 3.5",
+      "manje 3.5": "Under 3.5",
+      "više 5": "Over 5",
+      "manje 5": "Under 5",
+      "manje 4.5": "Under 4.5",
+      "više 4.5": "Over 4.5",
+      "više 0.5": "Over 0.5",
+      "manje 0.5": "Under 0.5",
+      "više 2.5": "Over 2.5",
+      "manje 2.5": "Under 2.5",
+      "manje 2": "Under Away",
+      "više 2": "Over Away",
+      "više 1.5": "Over 1.5",
+      "manje 1.5": "Under 1.5",
+      "manje 4": "Under 4",
+      "više 4": "Over 4",
+      "manje 6": "Under 6",
+      "više 6": "Over 6"
+    }
+  }
+]

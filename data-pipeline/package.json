@@ -1,0 +1,28 @@
+{
+  "name": "psk-voice-agent-data-pipeline",
+  "private": true,
+  "type": "module",
+  "version": "0.1.0",
+  "description": "Standalone data layer + agent tools + a real text-mode Azure Realtime client for the PSK voice search agent demo (Challenge 02). No RN/Xcode/iPhone dependency — chatCli.ts drives the real gpt-realtime-2.1-feg deployment entirely from a terminal.",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build:fixtures": "tsx src/buildFixtures.ts",
+    "build:lexicon": "tsx src/buildLexicon.ts",
+    "build:userprofile": "tsx src/buildUserProfile.ts",
+    "snapshot": "npm run typecheck && npm run build:fixtures && npm run build:lexicon && npm run build:userprofile",
+    "validate": "tsx src/validate.ts",
+    "test:tools": "tsx src/testTools.ts",
+    "test:agent": "tsx src/testAgentBehavior.ts",
+    "chat": "tsx src/chatCli.ts",
+    "broker": "tsx src/tokenBroker.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  },
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "ws": "^8.21.3"
+  }
+}

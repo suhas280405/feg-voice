@@ -1,0 +1,4102 @@
+[
+  {
+    "id": "ufo:mkt:1vu-03h-024",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-024-01",
+        "name": "više 5.5",
+        "odds": 8.2,
+        "previousOdds": 8.4
+      },
+      {
+        "id": "ufo:opt:1vu-03h-024-00",
+        "name": "manje 5.5",
+        "odds": 1.07,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-00s",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-00s-00",
+        "name": "više 3",
+        "odds": 2,
+        "previousOdds": 2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-00s-01",
+        "name": "manje 3",
+        "odds": 1.75,
+        "previousOdds": 1.85
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-025",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-025-00",
+        "name": "manje 1.5",
+        "odds": 1.52,
+        "previousOdds": 1.57
+      },
+      {
+        "id": "ufo:opt:1vu-03h-025-01",
+        "name": "više 1.5",
+        "odds": 2.28,
+        "previousOdds": 2.26
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-00p",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-00p-02",
+        "name": "2",
+        "odds": 3.2,
+        "previousOdds": 3.1
+      },
+      {
+        "id": "ufo:opt:1vu-03h-00p-01",
+        "name": "X",
+        "odds": 2.35,
+        "previousOdds": 2.4
+      },
+      {
+        "id": "ufo:opt:1vu-03h-00p-00",
+        "name": "1",
+        "odds": 3,
+        "previousOdds": 2.95
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-01b",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-01b-00",
+        "name": "više 1",
+        "odds": 1.56,
+        "previousOdds": 1.54
+      },
+      {
+        "id": "ufo:opt:1vu-03h-01b-01",
+        "name": "manje 1",
+        "odds": 2.18,
+        "previousOdds": 2.31
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-00y",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-00y-01",
+        "name": "manje 1",
+        "odds": 9.6,
+        "previousOdds": 12
+      },
+      {
+        "id": "ufo:opt:1vu-03h-00y-00",
+        "name": "više 1",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-00v",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-00v-00",
+        "name": "2",
+        "odds": 1.95,
+        "previousOdds": 2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-00v-01",
+        "name": "1",
+        "odds": 1.86,
+        "previousOdds": 1.82
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-014",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-014-00",
+        "name": "više 2.5",
+        "odds": 4.3,
+        "previousOdds": 4.2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-014-01",
+        "name": "manje 2.5",
+        "odds": 1.18,
+        "previousOdds": 1.19
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-011",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-011-01",
+        "name": "manje 0.5",
+        "odds": 3.75,
+        "previousOdds": 3.9
+      },
+      {
+        "id": "ufo:opt:1vu-03h-011-00",
+        "name": "više 0.5",
+        "odds": 1.23,
+        "previousOdds": 1.22
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-010",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-010-00",
+        "name": "manje 2.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-010-01",
+        "name": "više 2.5",
+        "odds": 4.1,
+        "previousOdds": 4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-017",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-017-01",
+        "name": "više 2",
+        "odds": 3.95,
+        "previousOdds": 3.9
+      },
+      {
+        "id": "ufo:opt:1vu-03h-017-00",
+        "name": "manje 2",
+        "odds": 1.19,
+        "previousOdds": 1.22
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-002",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-002-01",
+        "name": "Ne/manje 2.5",
+        "odds": 2.85,
+        "previousOdds": 3
+      },
+      {
+        "id": "ufo:opt:1vu-03h-002-03",
+        "name": "Ne/više 2.5",
+        "odds": 9.8,
+        "previousOdds": 10
+      },
+      {
+        "id": "ufo:opt:1vu-03h-002-02",
+        "name": "Da/manje 2.5",
+        "odds": 6.8,
+        "previousOdds": 6.6
+      },
+      {
+        "id": "ufo:opt:1vu-03h-002-00",
+        "name": "Da/više 2.5",
+        "odds": 1.82,
+        "previousOdds": 1.76
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-001",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-001-01",
+        "name": "manje 1.5",
+        "odds": 1.66,
+        "previousOdds": 1.7
+      },
+      {
+        "id": "ufo:opt:1vu-03h-001-00",
+        "name": "više 1.5",
+        "odds": 2.09,
+        "previousOdds": 2.03
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-000",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-000-02",
+        "name": "X",
+        "odds": 3.7,
+        "previousOdds": 3.7
+      },
+      {
+        "id": "ufo:opt:1vu-03h-000-01",
+        "name": "1",
+        "odds": 2.6,
+        "previousOdds": 2.6
+      },
+      {
+        "id": "ufo:opt:1vu-03h-000-00",
+        "name": "2",
+        "odds": 2.9,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-009",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-009-00",
+        "name": "više 3.5",
+        "odds": 2.55,
+        "previousOdds": 2.5
+      },
+      {
+        "id": "ufo:opt:1vu-03h-009-01",
+        "name": "manje 3.5",
+        "odds": 1.5,
+        "previousOdds": 1.55
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-005",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-005-00",
+        "name": "više 5",
+        "odds": 7.6,
+        "previousOdds": 7.6
+      },
+      {
+        "id": "ufo:opt:1vu-03h-005-01",
+        "name": "manje 5",
+        "odds": 1.07,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-008",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-008-01",
+        "name": "manje 4.5",
+        "odds": 1.2,
+        "previousOdds": 1.22
+      },
+      {
+        "id": "ufo:opt:1vu-03h-008-00",
+        "name": "više 4.5",
+        "odds": 4.5,
+        "previousOdds": 4.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-06t",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-06t-00",
+        "name": "manje 3.5",
+        "odds": 1.04,
+        "previousOdds": 1.03
+      },
+      {
+        "id": "ufo:opt:1vu-03h-06t-01",
+        "name": "više 3.5",
+        "odds": 8.8,
+        "previousOdds": 8.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-07g",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-07g-00",
+        "name": "više 3.5",
+        "odds": 8.4,
+        "previousOdds": 8
+      },
+      {
+        "id": "ufo:opt:1vu-03h-07g-01",
+        "name": "manje 3.5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02s",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02s-00",
+        "name": "2",
+        "odds": 2.13,
+        "previousOdds": 2.17
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02s-01",
+        "name": "X",
+        "odds": 1.84,
+        "previousOdds": 1.85
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02s-02",
+        "name": "1",
+        "odds": 2.05,
+        "previousOdds": 2.02
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02p",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02p-00",
+        "name": "više 0.5",
+        "odds": 1.03,
+        "previousOdds": 1.03
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02p-01",
+        "name": "manje 0.5",
+        "odds": 10.5,
+        "previousOdds": 12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02r",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02r-01",
+        "name": "manje 0.5",
+        "odds": 3.15,
+        "previousOdds": 3.35
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02r-00",
+        "name": "više 0.5",
+        "odds": 1.29,
+        "previousOdds": 1.28
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02g",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02g-00",
+        "name": "više 2.5",
+        "odds": 1.65,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02g-01",
+        "name": "manje 2.5",
+        "odds": 2.2,
+        "previousOdds": 2.35
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-03a",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-03a-02",
+        "name": "1X",
+        "odds": 1.5,
+        "previousOdds": 1.5
+      },
+      {
+        "id": "ufo:opt:1vu-03h-03a-00",
+        "name": "X2",
+        "odds": 1.6,
+        "previousOdds": 1.6
+      },
+      {
+        "id": "ufo:opt:1vu-03h-03a-01",
+        "name": "12",
+        "odds": 1.35,
+        "previousOdds": 1.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-01u",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-01u-01",
+        "name": "više 0.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-01u-00",
+        "name": "manje 0.5",
+        "odds": 3.9,
+        "previousOdds": 4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-036",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-036-01",
+        "name": "manje 2",
+        "odds": 3.5,
+        "previousOdds": 3.9
+      },
+      {
+        "id": "ufo:opt:1vu-03h-036-00",
+        "name": "više 2",
+        "odds": 1.3,
+        "previousOdds": 1.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-01t",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-01t-01",
+        "name": "više 1.5",
+        "odds": 2.05,
+        "previousOdds": 2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-01t-00",
+        "name": "manje 1.5",
+        "odds": 1.7,
+        "previousOdds": 1.75
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-01l",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-01l-00",
+        "name": "više 1.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03h-01l-01",
+        "name": "manje 1.5",
+        "odds": 4.4,
+        "previousOdds": 4.9
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02e",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02e-00",
+        "name": "manje 4",
+        "odds": 1.25,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02e-01",
+        "name": "više 4",
+        "odds": 3.8,
+        "previousOdds": 3.8
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-02b",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-02b-00",
+        "name": "Ne",
+        "odds": 2.35,
+        "previousOdds": 2.5
+      },
+      {
+        "id": "ufo:opt:1vu-03h-02b-01",
+        "name": "Da",
+        "odds": 1.5,
+        "previousOdds": 1.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03h-01y",
+    "fixtureId": "ufo:mtch:1vu-03h",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03h-01y-00",
+        "name": "više 2.5",
+        "odds": 4.8,
+        "previousOdds": 4.8
+      },
+      {
+        "id": "ufo:opt:1vu-03h-01y-01",
+        "name": "manje 2.5",
+        "odds": 1.13,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-02x",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-02x-00",
+        "name": "više 2.5",
+        "odds": 4.2,
+        "previousOdds": 4.5
+      },
+      {
+        "id": "ufo:opt:1vu-03i-02x-01",
+        "name": "manje 2.5",
+        "odds": 1.16,
+        "previousOdds": 1.16
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-02w",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-02w-01",
+        "name": "više 2",
+        "odds": 3.4,
+        "previousOdds": 3.55
+      },
+      {
+        "id": "ufo:opt:1vu-03i-02w-00",
+        "name": "manje 2",
+        "odds": 1.24,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-02q",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-02q-00",
+        "name": "manje 1.5",
+        "odds": 5.1,
+        "previousOdds": 5.4
+      },
+      {
+        "id": "ufo:opt:1vu-03i-02q-01",
+        "name": "više 1.5",
+        "odds": 1.15,
+        "previousOdds": 1.17
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-02g",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-02g-01",
+        "name": "više 5",
+        "odds": 6.1,
+        "previousOdds": 6.6
+      },
+      {
+        "id": "ufo:opt:1vu-03i-02g-00",
+        "name": "manje 5",
+        "odds": 1.1,
+        "previousOdds": 1.12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-01u",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-01u-00",
+        "name": "više 1.5",
+        "odds": 2.09,
+        "previousOdds": 2.14
+      },
+      {
+        "id": "ufo:opt:1vu-03i-01u-01",
+        "name": "manje 1.5",
+        "odds": 1.61,
+        "previousOdds": 1.63
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-032",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-032-01",
+        "name": "1",
+        "odds": 2.15,
+        "previousOdds": 2.2
+      },
+      {
+        "id": "ufo:opt:1vu-03i-032-02",
+        "name": "X",
+        "odds": 2.55,
+        "previousOdds": 2.5
+      },
+      {
+        "id": "ufo:opt:1vu-03i-032-00",
+        "name": "2",
+        "odds": 4.5,
+        "previousOdds": 4.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-034",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-034-01",
+        "name": "Da",
+        "odds": 1.5,
+        "previousOdds": 1.55
+      },
+      {
+        "id": "ufo:opt:1vu-03i-034-00",
+        "name": "Ne",
+        "odds": 2.35,
+        "previousOdds": 2.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-01r",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-01r-00",
+        "name": "više 1.5",
+        "odds": 1.55,
+        "previousOdds": 1.55
+      },
+      {
+        "id": "ufo:opt:1vu-03i-01r-01",
+        "name": "manje 1.5",
+        "odds": 2.3,
+        "previousOdds": 2.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-01l",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-01l-01",
+        "name": "manje 1.5",
+        "odds": 1.44,
+        "previousOdds": 1.45
+      },
+      {
+        "id": "ufo:opt:1vu-03i-01l-00",
+        "name": "više 1.5",
+        "odds": 2.6,
+        "previousOdds": 2.55
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-01k",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-01k-01",
+        "name": "više 2.5",
+        "odds": 6,
+        "previousOdds": 5.8
+      },
+      {
+        "id": "ufo:opt:1vu-03i-01k-00",
+        "name": "manje 2.5",
+        "odds": 1.1,
+        "previousOdds": 1.09
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00w",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00w-01",
+        "name": "manje 4.5",
+        "odds": 1.25,
+        "previousOdds": 1.25
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00w-00",
+        "name": "više 4.5",
+        "odds": 3.8,
+        "previousOdds": 4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00u",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00u-00",
+        "name": "manje 3.5",
+        "odds": 1.6,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00u-01",
+        "name": "više 3.5",
+        "odds": 2.25,
+        "previousOdds": 2.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00y",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00y-00",
+        "name": "više 2.5",
+        "odds": 2.65,
+        "previousOdds": 2.7
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00y-01",
+        "name": "manje 2.5",
+        "odds": 1.4,
+        "previousOdds": 1.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-021",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-021-01",
+        "name": "manje 2",
+        "odds": 4.2,
+        "previousOdds": 4.4
+      },
+      {
+        "id": "ufo:opt:1vu-03i-021-00",
+        "name": "više 2",
+        "odds": 1.2,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00l",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00l-01",
+        "name": "manje 1",
+        "odds": 2.48,
+        "previousOdds": 2.5
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00l-00",
+        "name": "više 1",
+        "odds": 1.45,
+        "previousOdds": 1.48
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00r",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00r-00",
+        "name": "više 0.5",
+        "odds": 1.1,
+        "previousOdds": 1.12
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00r-01",
+        "name": "manje 0.5",
+        "odds": 5.8,
+        "previousOdds": 5.6
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00p",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00p-00",
+        "name": "manje 2.5",
+        "odds": 2.5,
+        "previousOdds": 2.55
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00p-01",
+        "name": "više 2.5",
+        "odds": 1.5,
+        "previousOdds": 1.55
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00i",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00i-00",
+        "name": "više 0.5",
+        "odds": 1.24,
+        "previousOdds": 1.26
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00i-01",
+        "name": "manje 0.5",
+        "odds": 3.5,
+        "previousOdds": 3.55
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-00b",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-00b-00",
+        "name": "manje 4",
+        "odds": 1.35,
+        "previousOdds": 1.35
+      },
+      {
+        "id": "ufo:opt:1vu-03i-00b-01",
+        "name": "više 4",
+        "odds": 3.2,
+        "previousOdds": 3.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-016",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-016-00",
+        "name": "više 5.5",
+        "odds": 6.7,
+        "previousOdds": 7.4
+      },
+      {
+        "id": "ufo:opt:1vu-03i-016-01",
+        "name": "manje 5.5",
+        "odds": 1.1,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-015",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-015-00",
+        "name": "1",
+        "odds": 1.51,
+        "previousOdds": 1.53
+      },
+      {
+        "id": "ufo:opt:1vu-03i-015-02",
+        "name": "X",
+        "odds": 1.98,
+        "previousOdds": 1.97
+      },
+      {
+        "id": "ufo:opt:1vu-03i-015-01",
+        "name": "2",
+        "odds": 3,
+        "previousOdds": 2.95
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-010",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-010-01",
+        "name": "više 3",
+        "odds": 1.8,
+        "previousOdds": 1.85
+      },
+      {
+        "id": "ufo:opt:1vu-03i-010-00",
+        "name": "manje 3",
+        "odds": 2,
+        "previousOdds": 2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-013",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-013-00",
+        "name": "manje 0.5",
+        "odds": 2.95,
+        "previousOdds": 3
+      },
+      {
+        "id": "ufo:opt:1vu-03i-013-01",
+        "name": "više 0.5",
+        "odds": 1.35,
+        "previousOdds": 1.34
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-006",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-006-03",
+        "name": "Ne/manje 2.5",
+        "odds": 3.15,
+        "previousOdds": 3.2
+      },
+      {
+        "id": "ufo:opt:1vu-03i-006-00",
+        "name": "Da/manje 2.5",
+        "odds": 8,
+        "previousOdds": 7.8
+      },
+      {
+        "id": "ufo:opt:1vu-03i-006-02",
+        "name": "Ne/više 2.5",
+        "odds": 7.2,
+        "previousOdds": 7.4
+      },
+      {
+        "id": "ufo:opt:1vu-03i-006-01",
+        "name": "Da/više 2.5",
+        "odds": 1.75,
+        "previousOdds": 1.74
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-005",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-005-00",
+        "name": "manje 0.5",
+        "odds": 11.5,
+        "previousOdds": 13
+      },
+      {
+        "id": "ufo:opt:1vu-03i-005-01",
+        "name": "više 0.5",
+        "odds": 1.02,
+        "previousOdds": 1.03
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-002",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-002-00",
+        "name": "X2",
+        "odds": 2,
+        "previousOdds": 2.05
+      },
+      {
+        "id": "ufo:opt:1vu-03i-002-02",
+        "name": "12",
+        "odds": 1.25,
+        "previousOdds": 1.27
+      },
+      {
+        "id": "ufo:opt:1vu-03i-002-01",
+        "name": "1X",
+        "odds": 1.22,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-001",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-001-02",
+        "name": "1",
+        "odds": 1.7,
+        "previousOdds": 1.75
+      },
+      {
+        "id": "ufo:opt:1vu-03i-001-00",
+        "name": "2",
+        "odds": 4.4,
+        "previousOdds": 4.3
+      },
+      {
+        "id": "ufo:opt:1vu-03i-001-01",
+        "name": "X",
+        "odds": 4.2,
+        "previousOdds": 4.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-000",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-000-01",
+        "name": "2",
+        "odds": 3.3,
+        "previousOdds": 3.2
+      },
+      {
+        "id": "ufo:opt:1vu-03i-000-00",
+        "name": "1",
+        "odds": 1.34,
+        "previousOdds": 1.36
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-1er",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-1er-01",
+        "name": "manje 6",
+        "odds": 1.03,
+        "previousOdds": 1.03
+      },
+      {
+        "id": "ufo:opt:1vu-03i-1er-00",
+        "name": "više 6",
+        "odds": 11,
+        "previousOdds": 11
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-1br",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-1br-00",
+        "name": "više 3.5",
+        "odds": 11,
+        "previousOdds": 11
+      },
+      {
+        "id": "ufo:opt:1vu-03i-1br-01",
+        "name": "manje 3.5",
+        "odds": 1.01,
+        "previousOdds": 1.01
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-113",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-113-00",
+        "name": "više 3.5",
+        "odds": 5.2,
+        "previousOdds": 5.4
+      },
+      {
+        "id": "ufo:opt:1vu-03i-113-01",
+        "name": "manje 3.5",
+        "odds": 1.15,
+        "previousOdds": 1.12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03i-112",
+    "fixtureId": "ufo:mtch:1vu-03i",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03i-112-00",
+        "name": "manje 4.5",
+        "odds": 1.03,
+        "previousOdds": 1.02
+      },
+      {
+        "id": "ufo:opt:1vu-03i-112-01",
+        "name": "više 4.5",
+        "odds": 9.2,
+        "previousOdds": 9.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02e",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02e-01",
+        "name": "manje 4",
+        "odds": 1.35,
+        "previousOdds": 1.4
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02e-00",
+        "name": "više 4",
+        "odds": 3,
+        "previousOdds": 3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02d",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02d-00",
+        "name": "više 5",
+        "odds": 5.5,
+        "previousOdds": 5.8
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02d-01",
+        "name": "manje 5",
+        "odds": 1.12,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02c",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02c-00",
+        "name": "više 2",
+        "odds": 3.3,
+        "previousOdds": 3.35
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02c-01",
+        "name": "manje 2",
+        "odds": 1.26,
+        "previousOdds": 1.28
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-01z",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-01z-00",
+        "name": "manje 4.5",
+        "odds": 1.25,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-01z-01",
+        "name": "više 4.5",
+        "odds": 3.5,
+        "previousOdds": 3.7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-037",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-037-02",
+        "name": "1",
+        "odds": 1.56,
+        "previousOdds": 1.55
+      },
+      {
+        "id": "ufo:opt:1vu-03g-037-01",
+        "name": "X",
+        "odds": 1.97,
+        "previousOdds": 1.98
+      },
+      {
+        "id": "ufo:opt:1vu-03g-037-00",
+        "name": "2",
+        "odds": 2.85,
+        "previousOdds": 2.9
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-035",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-035-01",
+        "name": "manje 0.5",
+        "odds": 3.55,
+        "previousOdds": 3.7
+      },
+      {
+        "id": "ufo:opt:1vu-03g-035-00",
+        "name": "više 0.5",
+        "odds": 1.23,
+        "previousOdds": 1.23
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-01i",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-01i-01",
+        "name": "manje 1.5",
+        "odds": 2.3,
+        "previousOdds": 2.3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-01i-00",
+        "name": "više 1.5",
+        "odds": 1.55,
+        "previousOdds": 1.55
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02z",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02z-00",
+        "name": "više 5.5",
+        "odds": 6.1,
+        "previousOdds": 6.4
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02z-01",
+        "name": "manje 5.5",
+        "odds": 1.1,
+        "previousOdds": 1.12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02x",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02x-00",
+        "name": "više 1.5",
+        "odds": 2.42,
+        "previousOdds": 2.39
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02x-01",
+        "name": "manje 1.5",
+        "odds": 1.5,
+        "previousOdds": 1.51
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02v",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02v-00",
+        "name": "više 1",
+        "odds": 1.42,
+        "previousOdds": 1.43
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02v-01",
+        "name": "manje 1",
+        "odds": 2.53,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02p",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02p-00",
+        "name": "više 3.5",
+        "odds": 2.15,
+        "previousOdds": 2.15
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02p-01",
+        "name": "manje 3.5",
+        "odds": 1.65,
+        "previousOdds": 1.7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02n",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02n-01",
+        "name": "više 0.5",
+        "odds": 1.31,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02n-00",
+        "name": "manje 0.5",
+        "odds": 3.2,
+        "previousOdds": 3.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02m",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02m-00",
+        "name": "više 2",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02m-01",
+        "name": "manje 2",
+        "odds": 4.3,
+        "previousOdds": 4.7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02j",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02j-00",
+        "name": "više 2.5",
+        "odds": 1.45,
+        "previousOdds": 1.5
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02j-01",
+        "name": "manje 2.5",
+        "odds": 2.55,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-02i",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-02i-01",
+        "name": "manje 2.5",
+        "odds": 1.17,
+        "previousOdds": 1.19
+      },
+      {
+        "id": "ufo:opt:1vu-03g-02i-00",
+        "name": "više 2.5",
+        "odds": 4.1,
+        "previousOdds": 4.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-015",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-015-01",
+        "name": "manje 1.5",
+        "odds": 1.64,
+        "previousOdds": 1.68
+      },
+      {
+        "id": "ufo:opt:1vu-03g-015-00",
+        "name": "više 1.5",
+        "odds": 2.05,
+        "previousOdds": 2.07
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-01b",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-01b-00",
+        "name": "manje 2.5",
+        "odds": 1.12,
+        "previousOdds": 1.13
+      },
+      {
+        "id": "ufo:opt:1vu-03g-01b-01",
+        "name": "više 2.5",
+        "odds": 5.4,
+        "previousOdds": 5.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00z",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00z-00",
+        "name": "Ne",
+        "odds": 2.45,
+        "previousOdds": 2.6
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00z-01",
+        "name": "Da",
+        "odds": 1.5,
+        "previousOdds": 1.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00w",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00w-01",
+        "name": "manje 1.5",
+        "odds": 5.2,
+        "previousOdds": 5.8
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00w-00",
+        "name": "više 1.5",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00p",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00p-00",
+        "name": "manje 3",
+        "odds": 2.05,
+        "previousOdds": 2.15
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00p-01",
+        "name": "više 3",
+        "odds": 1.7,
+        "previousOdds": 1.7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00m",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00m-03",
+        "name": "Da/više 2.5",
+        "odds": 1.69,
+        "previousOdds": 1.67
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00m-01",
+        "name": "Ne/više 2.5",
+        "odds": 7.6,
+        "previousOdds": 7.4
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00m-02",
+        "name": "Da/manje 2.5",
+        "odds": 8,
+        "previousOdds": 8.2
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00m-00",
+        "name": "Ne/manje 2.5",
+        "odds": 3.3,
+        "previousOdds": 3.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00i",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00i-01",
+        "name": "manje 0.5",
+        "odds": 5.6,
+        "previousOdds": 5.8
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00i-00",
+        "name": "više 0.5",
+        "odds": 1.1,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00h",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00h-02",
+        "name": "1",
+        "odds": 2.25,
+        "previousOdds": 2.2
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00h-00",
+        "name": "2",
+        "odds": 4.2,
+        "previousOdds": 4.1
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00h-01",
+        "name": "X",
+        "odds": 2.55,
+        "previousOdds": 2.6
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-00g",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-00g-01",
+        "name": "manje 2.5",
+        "odds": 1.4,
+        "previousOdds": 1.4
+      },
+      {
+        "id": "ufo:opt:1vu-03g-00g-00",
+        "name": "više 2.5",
+        "odds": 2.7,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-006",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-006-01",
+        "name": "više 0.5",
+        "odds": 1.02,
+        "previousOdds": 1.03
+      },
+      {
+        "id": "ufo:opt:1vu-03g-006-00",
+        "name": "manje 0.5",
+        "odds": 11,
+        "previousOdds": 13
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-002",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-002-00",
+        "name": "2",
+        "odds": 3.05,
+        "previousOdds": 3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-002-01",
+        "name": "1",
+        "odds": 1.39,
+        "previousOdds": 1.38
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-001",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-001-00",
+        "name": "1X",
+        "odds": 1.3,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-001-01",
+        "name": "12",
+        "odds": 1.3,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03g-001-02",
+        "name": "X2",
+        "odds": 2.1,
+        "previousOdds": 2.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-000",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-000-01",
+        "name": "2",
+        "odds": 4.3,
+        "previousOdds": 4.5
+      },
+      {
+        "id": "ufo:opt:1vu-03g-000-02",
+        "name": "X",
+        "odds": 4.2,
+        "previousOdds": 4.2
+      },
+      {
+        "id": "ufo:opt:1vu-03g-000-00",
+        "name": "1",
+        "odds": 1.9,
+        "previousOdds": 1.9
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-07s",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-07s-00",
+        "name": "manje 4.5",
+        "odds": 1.03,
+        "previousOdds": 1.02
+      },
+      {
+        "id": "ufo:opt:1vu-03g-07s-01",
+        "name": "više 4.5",
+        "odds": 9.2,
+        "previousOdds": 9
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-07g",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-07g-01",
+        "name": "više 3.5",
+        "odds": 5.2,
+        "previousOdds": 5
+      },
+      {
+        "id": "ufo:opt:1vu-03g-07g-00",
+        "name": "manje 3.5",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-081",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-081-00",
+        "name": "manje 3.5",
+        "odds": 1.02,
+        "previousOdds": 1.01
+      },
+      {
+        "id": "ufo:opt:1vu-03g-081-01",
+        "name": "više 3.5",
+        "odds": 10,
+        "previousOdds": 9.6
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03g-0xq",
+    "fixtureId": "ufo:mtch:1vu-03g",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03g-0xq-01",
+        "name": "manje 6",
+        "odds": 1.03,
+        "previousOdds": 1.05
+      },
+      {
+        "id": "ufo:opt:1vu-03g-0xq-00",
+        "name": "više 6",
+        "odds": 9.5,
+        "previousOdds": 12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-002",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-002-01",
+        "name": "više 2.5",
+        "odds": 1.6,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03j-002-00",
+        "name": "manje 2.5",
+        "odds": 2.2,
+        "previousOdds": 2.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-001",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-001-00",
+        "name": "manje 0.5",
+        "odds": 5.4,
+        "previousOdds": 5.2
+      },
+      {
+        "id": "ufo:opt:1vu-03j-001-01",
+        "name": "više 0.5",
+        "odds": 1.12,
+        "previousOdds": 1.13
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-003",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-003-01",
+        "name": "manje 5",
+        "odds": 1.07,
+        "previousOdds": 1.07
+      },
+      {
+        "id": "ufo:opt:1vu-03j-003-00",
+        "name": "više 5",
+        "odds": 7,
+        "previousOdds": 8.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-005",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-005-00",
+        "name": "manje 2.5",
+        "odds": 1.07,
+        "previousOdds": 1.07
+      },
+      {
+        "id": "ufo:opt:1vu-03j-005-01",
+        "name": "više 2.5",
+        "odds": 7.2,
+        "previousOdds": 7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-007",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-007-01",
+        "name": "više 5.5",
+        "odds": 7.6,
+        "previousOdds": 8.8
+      },
+      {
+        "id": "ufo:opt:1vu-03j-007-00",
+        "name": "manje 5.5",
+        "odds": 1.07,
+        "previousOdds": 1.07
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-010",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-010-00",
+        "name": "manje 1",
+        "odds": 9.2,
+        "previousOdds": 10
+      },
+      {
+        "id": "ufo:opt:1vu-03j-010-01",
+        "name": "više 1",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-013",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-013-01",
+        "name": "manje 2.5",
+        "odds": 1.13,
+        "previousOdds": 1.13
+      },
+      {
+        "id": "ufo:opt:1vu-03j-013-00",
+        "name": "više 2.5",
+        "odds": 4.75,
+        "previousOdds": 4.8
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00b",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00b-02",
+        "name": "Ne/manje 2.5",
+        "odds": 2.8,
+        "previousOdds": 2.75
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00b-03",
+        "name": "Ne/više 2.5",
+        "odds": 7,
+        "previousOdds": 7.2
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00b-01",
+        "name": "Da/manje 2.5",
+        "odds": 7.6,
+        "previousOdds": 7.4
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00b-00",
+        "name": "Da/više 2.5",
+        "odds": 1.94,
+        "previousOdds": 1.92
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-014",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-014-00",
+        "name": "više 2.5",
+        "odds": 2.8,
+        "previousOdds": 2.85
+      },
+      {
+        "id": "ufo:opt:1vu-03j-014-01",
+        "name": "manje 2.5",
+        "odds": 1.38,
+        "previousOdds": 1.37
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00k",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00k-00",
+        "name": "2",
+        "odds": 2.15,
+        "previousOdds": 2.15
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00k-01",
+        "name": "X",
+        "odds": 2.45,
+        "previousOdds": 2.45
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00k-02",
+        "name": "1",
+        "odds": 4.9,
+        "previousOdds": 4.8
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-021",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-021-01",
+        "name": "više 4",
+        "odds": 3.7,
+        "previousOdds": 4
+      },
+      {
+        "id": "ufo:opt:1vu-03j-021-00",
+        "name": "manje 4",
+        "odds": 1.25,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00d",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00d-01",
+        "name": "2",
+        "odds": 1.3,
+        "previousOdds": 1.31
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00d-00",
+        "name": "1",
+        "odds": 3.6,
+        "previousOdds": 3.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00c",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00c-01",
+        "name": "više 2",
+        "odds": 3.8,
+        "previousOdds": 3.9
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00c-00",
+        "name": "manje 2",
+        "odds": 1.19,
+        "previousOdds": 1.19
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00h",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00h-00",
+        "name": "više 0.5",
+        "odds": 1.45,
+        "previousOdds": 1.4
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00h-01",
+        "name": "manje 0.5",
+        "odds": 2.6,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00j",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00j-00",
+        "name": "manje 0.5",
+        "odds": 9.6,
+        "previousOdds": 11
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00j-01",
+        "name": "više 0.5",
+        "odds": 1.03,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00i",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00i-00",
+        "name": "više 1.5",
+        "odds": 1.61,
+        "previousOdds": 1.62
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00i-01",
+        "name": "manje 1.5",
+        "odds": 2.19,
+        "previousOdds": 2.16
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00s",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00s-00",
+        "name": "više 4.5",
+        "odds": 4.3,
+        "previousOdds": 4.7
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00s-01",
+        "name": "manje 4.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-028",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-028-00",
+        "name": "X",
+        "odds": 4.3,
+        "previousOdds": 4.3
+      },
+      {
+        "id": "ufo:opt:1vu-03j-028-02",
+        "name": "1",
+        "odds": 5,
+        "previousOdds": 4.7
+      },
+      {
+        "id": "ufo:opt:1vu-03j-028-01",
+        "name": "2",
+        "odds": 1.75,
+        "previousOdds": 1.75
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00u",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00u-00",
+        "name": "manje 2",
+        "odds": 3.5,
+        "previousOdds": 3.6
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00u-01",
+        "name": "više 2",
+        "odds": 1.27,
+        "previousOdds": 1.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00w",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00w-01",
+        "name": "1",
+        "odds": 3.25,
+        "previousOdds": 3.2
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00w-00",
+        "name": "X",
+        "odds": 1.94,
+        "previousOdds": 1.93
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00w-02",
+        "name": "2",
+        "odds": 1.48,
+        "previousOdds": 1.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-00z",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-00z-01",
+        "name": "manje 3",
+        "odds": 1.75,
+        "previousOdds": 1.75
+      },
+      {
+        "id": "ufo:opt:1vu-03j-00z-00",
+        "name": "više 3",
+        "odds": 2,
+        "previousOdds": 2.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-01m",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-01m-00",
+        "name": "manje 1.5",
+        "odds": 1.53,
+        "previousOdds": 1.54
+      },
+      {
+        "id": "ufo:opt:1vu-03j-01m-01",
+        "name": "više 1.5",
+        "odds": 2.25,
+        "previousOdds": 2.27
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-031",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-031-01",
+        "name": "više 1.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03j-031-00",
+        "name": "manje 1.5",
+        "odds": 4.2,
+        "previousOdds": 4.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-02b",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-02b-01",
+        "name": "manje 1.5",
+        "odds": 1.35,
+        "previousOdds": 1.35
+      },
+      {
+        "id": "ufo:opt:1vu-03j-02b-00",
+        "name": "više 1.5",
+        "odds": 3,
+        "previousOdds": 2.95
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-02d",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-02d-00",
+        "name": "više 0.5",
+        "odds": 1.27,
+        "previousOdds": 1.29
+      },
+      {
+        "id": "ufo:opt:1vu-03j-02d-01",
+        "name": "manje 0.5",
+        "odds": 3.2,
+        "previousOdds": 3.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-02c",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-02c-02",
+        "name": "12",
+        "odds": 1.3,
+        "previousOdds": 1.3
+      },
+      {
+        "id": "ufo:opt:1vu-03j-02c-00",
+        "name": "X2",
+        "odds": 1.25,
+        "previousOdds": 1.25
+      },
+      {
+        "id": "ufo:opt:1vu-03j-02c-01",
+        "name": "1X",
+        "odds": 2.35,
+        "previousOdds": 2.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-01t",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-01t-01",
+        "name": "više 1",
+        "odds": 1.53,
+        "previousOdds": 1.56
+      },
+      {
+        "id": "ufo:opt:1vu-03j-01t-00",
+        "name": "manje 1",
+        "odds": 2.24,
+        "previousOdds": 2.28
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-01y",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-01y-01",
+        "name": "manje 3.5",
+        "odds": 1.5,
+        "previousOdds": 1.5
+      },
+      {
+        "id": "ufo:opt:1vu-03j-01y-00",
+        "name": "više 3.5",
+        "odds": 2.5,
+        "previousOdds": 2.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-02p",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-02p-00",
+        "name": "Da",
+        "odds": 1.65,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03j-02p-01",
+        "name": "Ne",
+        "odds": 2.1,
+        "previousOdds": 2.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-077",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-077-01",
+        "name": "manje 3.5",
+        "odds": 1.11,
+        "previousOdds": 1.1
+      },
+      {
+        "id": "ufo:opt:1vu-03j-077-00",
+        "name": "više 3.5",
+        "odds": 5.4,
+        "previousOdds": 5.6
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03j-06z",
+    "fixtureId": "ufo:mtch:1vu-03j",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03j-06z-01",
+        "name": "manje 4.5",
+        "odds": 1.02,
+        "previousOdds": 1.02
+      },
+      {
+        "id": "ufo:opt:1vu-03j-06z-00",
+        "name": "više 4.5",
+        "odds": 9.6,
+        "previousOdds": 9.8
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-008",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-008-00",
+        "name": "manje 2.5",
+        "odds": 1.55,
+        "previousOdds": 1.55
+      },
+      {
+        "id": "ufo:opt:1vu-03k-008-01",
+        "name": "više 2.5",
+        "odds": 2.3,
+        "previousOdds": 2.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-005",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-005-01",
+        "name": "manje 2",
+        "odds": 4.6,
+        "previousOdds": 5
+      },
+      {
+        "id": "ufo:opt:1vu-03k-005-00",
+        "name": "više 2",
+        "odds": 1.17,
+        "previousOdds": 1.17
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-004",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-004-00",
+        "name": "više 5.5",
+        "odds": 5.6,
+        "previousOdds": 6.2
+      },
+      {
+        "id": "ufo:opt:1vu-03k-004-01",
+        "name": "manje 5.5",
+        "odds": 1.12,
+        "previousOdds": 1.12
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-003",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-003-01",
+        "name": "Da/manje 2.5",
+        "odds": 9,
+        "previousOdds": 8.8
+      },
+      {
+        "id": "ufo:opt:1vu-03k-003-02",
+        "name": "Da/više 2.5",
+        "odds": 1.69,
+        "previousOdds": 1.67
+      },
+      {
+        "id": "ufo:opt:1vu-03k-003-03",
+        "name": "Ne/manje 2.5",
+        "odds": 3.45,
+        "previousOdds": 3.55
+      },
+      {
+        "id": "ufo:opt:1vu-03k-003-00",
+        "name": "Ne/više 2.5",
+        "odds": 6.2,
+        "previousOdds": 6.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-000",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-000-01",
+        "name": "više 3.5",
+        "odds": 2.05,
+        "previousOdds": 2.05
+      },
+      {
+        "id": "ufo:opt:1vu-03k-000-00",
+        "name": "manje 3.5",
+        "odds": 1.7,
+        "previousOdds": 1.75
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-013",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-013-01",
+        "name": "manje 5",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      },
+      {
+        "id": "ufo:opt:1vu-03k-013-00",
+        "name": "više 5",
+        "odds": 5,
+        "previousOdds": 5.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-011",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-011-01",
+        "name": "X",
+        "odds": 2.7,
+        "previousOdds": 2.65
+      },
+      {
+        "id": "ufo:opt:1vu-03k-011-00",
+        "name": "2",
+        "odds": 4.9,
+        "previousOdds": 4.8
+      },
+      {
+        "id": "ufo:opt:1vu-03k-011-02",
+        "name": "1",
+        "odds": 2,
+        "previousOdds": 2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00y",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00y-01",
+        "name": "manje 2.5",
+        "odds": 2.7,
+        "previousOdds": 2.85
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00y-00",
+        "name": "više 2.5",
+        "odds": 1.45,
+        "previousOdds": 1.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00v",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00v-01",
+        "name": "više 2.5",
+        "odds": 6.2,
+        "previousOdds": 6
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00v-00",
+        "name": "manje 2.5",
+        "odds": 1.09,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00s",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00s-00",
+        "name": "manje 1",
+        "odds": 2.72,
+        "previousOdds": 2.75
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00s-01",
+        "name": "više 1",
+        "odds": 1.38,
+        "previousOdds": 1.38
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00e",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00e-00",
+        "name": "više 0.5",
+        "odds": 1.1,
+        "previousOdds": 1.1
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00e-01",
+        "name": "manje 0.5",
+        "odds": 6.6,
+        "previousOdds": 6.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00b",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00b-00",
+        "name": "1",
+        "odds": 1.41,
+        "previousOdds": 1.42
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00b-01",
+        "name": "2",
+        "odds": 3.3,
+        "previousOdds": 3.2
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00b-02",
+        "name": "X",
+        "odds": 2.06,
+        "previousOdds": 2.07
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-020",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-020-01",
+        "name": "više 1.5",
+        "odds": 2.65,
+        "previousOdds": 2.6
+      },
+      {
+        "id": "ufo:opt:1vu-03k-020-00",
+        "name": "manje 1.5",
+        "odds": 1.42,
+        "previousOdds": 1.43
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00n",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00n-01",
+        "name": "manje 2",
+        "odds": 1.3,
+        "previousOdds": 1.32
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00n-00",
+        "name": "više 2",
+        "odds": 3.1,
+        "previousOdds": 3.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00m",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00m-00",
+        "name": "više 4.5",
+        "odds": 3.3,
+        "previousOdds": 3.4
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00m-01",
+        "name": "manje 4.5",
+        "odds": 1.3,
+        "previousOdds": 1.35
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-00j",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-00j-00",
+        "name": "više 0.5",
+        "odds": 1.36,
+        "previousOdds": 1.35
+      },
+      {
+        "id": "ufo:opt:1vu-03k-00j-01",
+        "name": "manje 0.5",
+        "odds": 2.9,
+        "previousOdds": 2.95
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-038",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-038-00",
+        "name": "manje 2.5",
+        "odds": 1.19,
+        "previousOdds": 1.21
+      },
+      {
+        "id": "ufo:opt:1vu-03k-038-01",
+        "name": "više 2.5",
+        "odds": 3.9,
+        "previousOdds": 4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-01u",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-01u-01",
+        "name": "manje 3",
+        "odds": 2.15,
+        "previousOdds": 2.25
+      },
+      {
+        "id": "ufo:opt:1vu-03k-01u-00",
+        "name": "više 3",
+        "odds": 1.65,
+        "previousOdds": 1.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-036",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-036-00",
+        "name": "više 4",
+        "odds": 2.75,
+        "previousOdds": 2.8
+      },
+      {
+        "id": "ufo:opt:1vu-03k-036-01",
+        "name": "manje 4",
+        "odds": 1.4,
+        "previousOdds": 1.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-01g",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-01g-00",
+        "name": "Da",
+        "odds": 1.5,
+        "previousOdds": 1.5
+      },
+      {
+        "id": "ufo:opt:1vu-03k-01g-01",
+        "name": "Ne",
+        "odds": 2.4,
+        "previousOdds": 2.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-01d",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-01d-00",
+        "name": "manje 1.5",
+        "odds": 2.6,
+        "previousOdds": 2.65
+      },
+      {
+        "id": "ufo:opt:1vu-03k-01d-01",
+        "name": "više 1.5",
+        "odds": 1.45,
+        "previousOdds": 1.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-031",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-031-01",
+        "name": "X",
+        "odds": 4.7,
+        "previousOdds": 4.7
+      },
+      {
+        "id": "ufo:opt:1vu-03k-031-00",
+        "name": "1",
+        "odds": 1.65,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03k-031-02",
+        "name": "2",
+        "odds": 5.5,
+        "previousOdds": 5.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-01k",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-01k-01",
+        "name": "1",
+        "odds": 1.27,
+        "previousOdds": 1.28
+      },
+      {
+        "id": "ufo:opt:1vu-03k-01k-00",
+        "name": "2",
+        "odds": 3.85,
+        "previousOdds": 3.75
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-02y",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-02y-00",
+        "name": "manje 0.5",
+        "odds": 3.7,
+        "previousOdds": 3.95
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02y-01",
+        "name": "više 0.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-02w",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-02w-01",
+        "name": "manje 0.5",
+        "odds": 12,
+        "previousOdds": 14
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02w-00",
+        "name": "više 0.5",
+        "odds": 1.02,
+        "previousOdds": 1.03
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-02u",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-02u-01",
+        "name": "1X",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02u-00",
+        "name": "X2",
+        "odds": 2.6,
+        "previousOdds": 2.6
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02u-02",
+        "name": "12",
+        "odds": 1.3,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-03b",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-03b-01",
+        "name": "manje 6",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      },
+      {
+        "id": "ufo:opt:1vu-03k-03b-00",
+        "name": "više 6",
+        "odds": 8.8,
+        "previousOdds": 11
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-02f",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-02f-01",
+        "name": "manje 1.5",
+        "odds": 5.6,
+        "previousOdds": 5.8
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02f-00",
+        "name": "više 1.5",
+        "odds": 1.12,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-02e",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-02e-00",
+        "name": "manje 1.5",
+        "odds": 1.69,
+        "previousOdds": 1.73
+      },
+      {
+        "id": "ufo:opt:1vu-03k-02e-01",
+        "name": "više 1.5",
+        "odds": 1.97,
+        "previousOdds": 1.99
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-06m",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-06m-00",
+        "name": "više 4.5",
+        "odds": 7.8,
+        "previousOdds": 7.6
+      },
+      {
+        "id": "ufo:opt:1vu-03k-06m-01",
+        "name": "manje 4.5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-06q",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-06q-01",
+        "name": "manje 3.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03k-06q-00",
+        "name": "više 3.5",
+        "odds": 4.2,
+        "previousOdds": 4.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03k-15r",
+    "fixtureId": "ufo:mtch:1vu-03k",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03k-15r-00",
+        "name": "više 3.5",
+        "odds": 11,
+        "previousOdds": 10
+      },
+      {
+        "id": "ufo:opt:1vu-03k-15r-01",
+        "name": "manje 3.5",
+        "odds": 1.01,
+        "previousOdds": 1.01
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-02i",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2d",
+    "marketTypeNameHr": "1.poluvrijeme",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-02i-01",
+        "name": "X",
+        "odds": 2.25,
+        "previousOdds": 2.25
+      },
+      {
+        "id": "ufo:opt:1vu-03l-02i-00",
+        "name": "2",
+        "odds": 3.7,
+        "previousOdds": 3.7
+      },
+      {
+        "id": "ufo:opt:1vu-03l-02i-02",
+        "name": "1",
+        "odds": 2.75,
+        "previousOdds": 2.7
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-02m",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-1c",
+    "marketTypeNameHr": "Oba daju gol",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-02m-00",
+        "name": "Ne",
+        "odds": 2.15,
+        "previousOdds": 2.2
+      },
+      {
+        "id": "ufo:opt:1vu-03l-02m-01",
+        "name": "Da",
+        "odds": 1.6,
+        "previousOdds": 1.65
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01h",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01h-00",
+        "name": "više 2",
+        "odds": 4.45,
+        "previousOdds": 4.5
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01h-01",
+        "name": "manje 2",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01b",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01b-01",
+        "name": "manje 1.5",
+        "odds": 1.45,
+        "previousOdds": 1.46
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01b-00",
+        "name": "više 1.5",
+        "odds": 2.46,
+        "previousOdds": 2.48
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01n",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01n-01",
+        "name": "manje 4",
+        "odds": 1.17,
+        "previousOdds": 1.2
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01n-00",
+        "name": "više 4",
+        "odds": 4.4,
+        "previousOdds": 4.9
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-033",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-04",
+    "marketTypeNameHr": "Poluvrijeme ili kraj",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-033-00",
+        "name": "X",
+        "odds": 1.79,
+        "previousOdds": 1.78
+      },
+      {
+        "id": "ufo:opt:1vu-03l-033-02",
+        "name": "2",
+        "odds": 2.48,
+        "previousOdds": 2.43
+      },
+      {
+        "id": "ufo:opt:1vu-03l-033-01",
+        "name": "1",
+        "odds": 1.85,
+        "previousOdds": 1.89
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01p",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01p-00",
+        "name": "manje 0.5",
+        "odds": 2.91,
+        "previousOdds": 2.95
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01p-01",
+        "name": "više 0.5",
+        "odds": 1.33,
+        "previousOdds": 1.33
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01k",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01k-00",
+        "name": "X",
+        "odds": 3.4,
+        "previousOdds": 3.4
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01k-02",
+        "name": "1",
+        "odds": 2.2,
+        "previousOdds": 2.3
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01k-01",
+        "name": "2",
+        "odds": 3.3,
+        "previousOdds": 3.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-039",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-039-00",
+        "name": "više 2.5",
+        "odds": 1.75,
+        "previousOdds": 1.85
+      },
+      {
+        "id": "ufo:opt:1vu-03l-039-01",
+        "name": "manje 2.5",
+        "odds": 1.95,
+        "previousOdds": 2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01y",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01y-01",
+        "name": "manje 3",
+        "odds": 1.6,
+        "previousOdds": 1.6
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01y-00",
+        "name": "više 3",
+        "odds": 2.3,
+        "previousOdds": 2.35
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-034",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-034-01",
+        "name": "manje 0.5",
+        "odds": 8.8,
+        "previousOdds": 9.8
+      },
+      {
+        "id": "ufo:opt:1vu-03l-034-00",
+        "name": "više 0.5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01t",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01t-01",
+        "name": "više 2.5",
+        "odds": 4,
+        "previousOdds": 4.1
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01t-00",
+        "name": "manje 2.5",
+        "odds": 1.2,
+        "previousOdds": 1.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01z",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01z-00",
+        "name": "više 1.5",
+        "odds": 2.5,
+        "previousOdds": 2.47
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01z-01",
+        "name": "manje 1.5",
+        "odds": 1.46,
+        "previousOdds": 1.48
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-003",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-003-00",
+        "name": "više 3.5",
+        "odds": 2.85,
+        "previousOdds": 2.9
+      },
+      {
+        "id": "ufo:opt:1vu-03l-003-01",
+        "name": "manje 3.5",
+        "odds": 1.4,
+        "previousOdds": 1.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00h",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-1k",
+    "marketTypeNameHr": "Oba daju gol i zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00h-00",
+        "name": "Da/više 2.5",
+        "odds": 2,
+        "previousOdds": 1.99
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00h-01",
+        "name": "Ne/više 2.5",
+        "odds": 9.8,
+        "previousOdds": 10
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00h-02",
+        "name": "Da/manje 2.5",
+        "odds": 6.4,
+        "previousOdds": 6.2
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00h-03",
+        "name": "Ne/manje 2.5",
+        "odds": 2.55,
+        "previousOdds": 2.5
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00a",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00a-00",
+        "name": "manje 2.5",
+        "odds": 1.11,
+        "previousOdds": 1.1
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00a-01",
+        "name": "više 2.5",
+        "odds": 5.6,
+        "previousOdds": 5.8
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00c",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00c-01",
+        "name": "više 4.5",
+        "odds": 5.2,
+        "previousOdds": 5.4
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00c-00",
+        "name": "manje 4.5",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00m",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00m-00",
+        "name": "više 2",
+        "odds": 1.35,
+        "previousOdds": 1.4
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00m-01",
+        "name": "manje 2",
+        "odds": 3,
+        "previousOdds": 3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-022",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-022-01",
+        "name": "manje 5.5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      },
+      {
+        "id": "ufo:opt:1vu-03l-022-00",
+        "name": "više 5.5",
+        "odds": 8.7,
+        "previousOdds": 11
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00o",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00o-01",
+        "name": "manje 1.5",
+        "odds": 3.8,
+        "previousOdds": 4
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00o-00",
+        "name": "više 1.5",
+        "odds": 1.25,
+        "previousOdds": 1.25
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00v",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00v-00",
+        "name": "manje 5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00v-01",
+        "name": "više 5",
+        "odds": 8.5,
+        "previousOdds": 10
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00x",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00x-01",
+        "name": "više 2.5",
+        "odds": 5.3,
+        "previousOdds": 5.4
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00x-00",
+        "name": "manje 2.5",
+        "odds": 1.1,
+        "previousOdds": 1.1
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-023",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-2i",
+    "marketTypeNameHr": "1.poluvrijeme zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-023-01",
+        "name": "više 1",
+        "odds": 1.68,
+        "previousOdds": 1.68
+      },
+      {
+        "id": "ufo:opt:1vu-03l-023-00",
+        "name": "manje 1",
+        "odds": 2,
+        "previousOdds": 2.02
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00q",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00q-01",
+        "name": "više 0.5",
+        "odds": 1.32,
+        "previousOdds": 1.31
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00q-00",
+        "name": "manje 0.5",
+        "odds": 3.1,
+        "previousOdds": 3.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00t",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-0u",
+    "marketTypeNameHr": "Zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00t-01",
+        "name": "manje 1",
+        "odds": 8,
+        "previousOdds": 9
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00t-00",
+        "name": "više 1",
+        "odds": 1.05,
+        "previousOdds": 1.07
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-026",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-03",
+    "marketTypeNameHr": "Ishod bez neriješenog",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-026-00",
+        "name": "1",
+        "odds": 1.61,
+        "previousOdds": 1.6
+      },
+      {
+        "id": "ufo:opt:1vu-03l-026-01",
+        "name": "2",
+        "odds": 2.33,
+        "previousOdds": 2.3
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-025",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-025-01",
+        "name": "manje 1.5",
+        "odds": 1.75,
+        "previousOdds": 1.7
+      },
+      {
+        "id": "ufo:opt:1vu-03l-025-00",
+        "name": "više 1.5",
+        "odds": 2,
+        "previousOdds": 2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-01a",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-01",
+    "marketTypeNameHr": "Osnovna ponuda dvoznak",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-01a-02",
+        "name": "1X",
+        "odds": 1.35,
+        "previousOdds": 1.35
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01a-01",
+        "name": "X2",
+        "odds": 1.6,
+        "previousOdds": 1.65
+      },
+      {
+        "id": "ufo:opt:1vu-03l-01a-00",
+        "name": "12",
+        "odds": 1.3,
+        "previousOdds": 1.35
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-00z",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-00z-01",
+        "name": "manje 0.5",
+        "odds": 4,
+        "previousOdds": 3.9
+      },
+      {
+        "id": "ufo:opt:1vu-03l-00z-00",
+        "name": "više 0.5",
+        "odds": 1.2,
+        "previousOdds": 1.22
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-0b1",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-13",
+    "marketTypeNameHr": "Tim 2 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-0b1-01",
+        "name": "više 3.5",
+        "odds": 11,
+        "previousOdds": 10
+      },
+      {
+        "id": "ufo:opt:1vu-03l-0b1-00",
+        "name": "manje 3.5",
+        "odds": 1.01,
+        "previousOdds": 1.02
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-03l-0as",
+    "fixtureId": "ufo:mtch:1vu-03l",
+    "marketTypeId": "ufo:mtyp:00-10",
+    "marketTypeNameHr": "Tim 1 zbroj golova",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-03l-0as-00",
+        "name": "manje 3.5",
+        "odds": 1.05,
+        "previousOdds": 1.05
+      },
+      {
+        "id": "ufo:opt:1vu-03l-0as-01",
+        "name": "više 3.5",
+        "odds": 8.2,
+        "previousOdds": 8.4
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-1cw-000",
+    "fixtureId": "ufo:mtch:1vu-1cw",
+    "marketTypeId": "ufo:mtyp:0k-01",
+    "marketTypeNameHr": "Konačni pobjednik",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-1cw-000-00",
+        "name": "1",
+        "odds": 4.6,
+        "previousOdds": 4.6
+      },
+      {
+        "id": "ufo:opt:1vu-1cw-000-01",
+        "name": "2",
+        "odds": 1.15,
+        "previousOdds": 1.15
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vv-0cj-000",
+    "fixtureId": "ufo:mtch:1vv-0cj",
+    "marketTypeId": "ufo:mtyp:0k-00",
+    "marketTypeNameHr": "Osnovna ponuda",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vv-0cj-000-01",
+        "name": "2",
+        "odds": 6.2,
+        "previousOdds": 6.4
+      },
+      {
+        "id": "ufo:opt:1vv-0cj-000-02",
+        "name": "1",
+        "odds": 1.25,
+        "previousOdds": 1.25
+      },
+      {
+        "id": "ufo:opt:1vv-0cj-000-00",
+        "name": "X",
+        "odds": 8,
+        "previousOdds": 8.2
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vu-1ug-000",
+    "fixtureId": "ufo:mtch:1vu-1ug",
+    "marketTypeId": "ufo:mtyp:0k-01",
+    "marketTypeNameHr": "Konačni pobjednik",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vu-1ug-000-01",
+        "name": "2",
+        "odds": 2.45,
+        "previousOdds": 2.45
+      },
+      {
+        "id": "ufo:opt:1vu-1ug-000-00",
+        "name": "1",
+        "odds": 1.45,
+        "previousOdds": 1.45
+      }
+    ]
+  },
+  {
+    "id": "ufo:mkt:1vw-09s-000",
+    "fixtureId": "ufo:mtch:1vw-09s",
+    "marketTypeId": "ufo:mtyp:0k-01",
+    "marketTypeNameHr": "Konačni pobjednik",
+    "outcomes": [
+      {
+        "id": "ufo:opt:1vw-09s-000-01",
+        "name": "2",
+        "odds": 1.95,
+        "previousOdds": 2
+      },
+      {
+        "id": "ufo:opt:1vw-09s-000-00",
+        "name": "1",
+        "odds": 1.7,
+        "previousOdds": 1.75
+      }
+    ]
+  },
+  {
+    "id": "demo:mkt:ind-aus-t20-winner",
+    "fixtureId": "demo:mtch:ind-aus-t20",
+    "marketTypeId": "demo:mtyp:konacni-pobjednik",
+    "marketTypeNameHr": "Konačni pobjednik",
+    "outcomes": [
+      {
+        "id": "demo:mkt:ind-aus-t20-winner-00",
+        "name": "1",
+        "odds": 2.05
+      },
+      {
+        "id": "demo:mkt:ind-aus-t20-winner-01",
+        "name": "2",
+        "odds": 1.72
+      }
+    ]
+  }
+]

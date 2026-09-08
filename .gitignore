@@ -1,0 +1,13 @@
+.env
+.env.local
+node_modules/
+ios/Pods/
+*.xcworkspace
+.DS_Store
+
+# Raw hackathon-provided source datasets (multi-GB) — inputs to
+# data-pipeline, not tracked. The pipeline's committed output
+# (data-pipeline/dist/*.json) is the actual interface the app reads from,
+# per docs/phase-0-foundations.md.
+/*.csv
+/*.xlsx
