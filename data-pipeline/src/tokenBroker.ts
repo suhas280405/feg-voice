@@ -14,13 +14,37 @@
  */
 
 import { createServer, type IncomingMessage, type ServerResponse } from "node:http";
-import { readFileSync } from "node:fs";
+import { readFileSync, appendFileSync, existsSync, mkdirSync } from "node:fs";
+import { fileURLToPath } from "node:url";
+import { dirname } from "node:path";
 import { AGENT_CONFIG } from "./agentConfig.ts";
 import { buildSessionUpdate } from "./realtimeClient.ts";
 import { runTool } from "./tools.ts";
 import { recordAuditEntry } from "./auditLog.ts";
 
 const PUBLIC_HTML_PATH = new URL("../public/voice-test.html", import.meta.url);
+
+// Live debugging of the browser client (public/voice-test.html) otherwise
+// depends on someone manually copy-pasting the browser console — slow and
+// lossy across a debugging session. The page instead POSTs every data-channel
+// event it sends/receives here, so the whole realtime event trace is a plain
+// file this side can read directly. Separate from auditLog.ts's Tier-2/3
+// compliance log (a different, deliberately-scoped concern) — this is raw,
+// unfiltered client debugging output, not an audit trail.
+const CLIENT_LOG_PATH = fileURLToPath(new URL("../logs/client-events.log", import.meta.url));
+
+function handleClientLog(req: IncomingMessage, res: ServerResponse): Promise<void> {
+  return readBody(req).then((bodyText) => {
+    const dir = dirname(CLIENT_LOG_PATH);
+    if (!existsSync(dir)) mkdirSync(dir, { recursive: true });
+    // Best-effort: still record malformed bodies rather than dropping them —
+    // a garbled line in a debug log is still more useful than a silent gap.
+    const line = JSON.stringify({ receivedAt: new Date().toISOString(), raw: bodyText });
+    appendFileSync(CLIENT_LOG_PATH, `${line}\n`, "utf8");
+    res.writeHead(204);
+    res.end();
+  });
+}
 
 function loadEnv(): Record<string, string> {
   const content = readFileSync(new URL("../../.env", import.meta.url), "utf8");
@@ -161,6 +185,17 @@ const server = createServer((req, res) => {
     return;
   }
 
+  if (req.method === "POST" && req.url === "/client-log") {
+    handleClientLog(req, res).catch((err) => {
+      console.error("[/client-log] unexpected error:", err);
+      if (!res.headersSent) {
+        res.writeHead(500, { "Content-Type": "application/json" });
+        res.end(JSON.stringify({ error: "Internal broker error" }));
+      }
+    });
+    return;
+  }
+
   if (req.method === "POST" && req.url === "/run-tool") {
     handleRunTool(req, res).catch((err) => {
       console.error("[/run-tool] unexpected error:", err);
@@ -193,5 +228,6 @@ server.listen(PORT, () => {
   console.log(`  GET  /health    — liveness check`);
   console.log(`  POST /connect   — body: raw SDP offer, Content-Type: application/sdp -> returns answer SDP`);
   console.log(`  POST /run-tool  — body: {name, argumentsJson} -> runs the tool, returns its JSON result`);
+  console.log(`  POST /client-log — body: any JSON -> appended to logs/client-events.log for server-side debugging`);
   console.log(`Expose to a phone with: ngrok http ${PORT}`);
 });

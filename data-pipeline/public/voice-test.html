@@ -109,6 +109,7 @@
     function requestResponse() {
       if (responseActive) {
         console.log("[guard] response already active — skipping duplicate response.create");
+        logToServer("guard-skip", {});
         return;
       }
       responseActive = true;
@@ -117,8 +118,24 @@
       startWatchdog();
     }
 
+    // Debugging so far has depended on someone manually copy-pasting the
+    // browser console, which is slow and loses earlier lines once the
+    // console scrolls. This mirrors every status change, error, and
+    // data-channel event to the broker (POST /client-log), which appends
+    // them to data-pipeline/logs/client-events.log — a plain file that can
+    // be read directly server-side, no copy-paste needed. Fire-and-forget:
+    // a failed log POST must never affect the actual voice session.
+    function logToServer(tag, data) {
+      fetch("/client-log", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ tag, data, ts: new Date().toISOString() }),
+      }).catch(() => {});
+    }
+
     function setStatus(text) {
       statusEl.textContent = text;
+      logToServer("status", { text });
     }
 
     function setConnectedUi(connected) {
@@ -179,6 +196,7 @@
     function finishTurn() {
       currentTurnEl = null;
       setMicEnabled(true);
+      logToServer("turn-finished", {});
     }
 
     function showError(text) {
@@ -186,10 +204,12 @@
       div.className = "error";
       div.textContent = `⚠ ${text}`;
       (currentTurnEl ?? turnsEl).appendChild(div);
+      logToServer("error", { text });
     }
 
     function sendEvent(obj) {
       console.log("[dc:out]", obj.type, obj);
+      logToServer("dc:out", obj);
       dataChannel.send(JSON.stringify(obj));
     }
 
@@ -209,6 +229,7 @@
 
     function handleServerEvent(evt) {
       console.log("[dc:in]", evt.type, evt);
+      logToServer("dc:in", evt);
       switch (evt.type) {
         case "session.updated": {
           // Master-plan risk, never actually verified until now: Azure has
