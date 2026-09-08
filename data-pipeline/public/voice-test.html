@@ -45,7 +45,7 @@
     let peerConnection = null;
     let dataChannel = null;
     let micStream = null;
-    let needsContinuation = false;
+    let toolCompletionPromise = null;
     let currentTurnEl = null;
 
     function setStatus(text) {
@@ -146,13 +146,15 @@
           break;
         case "response.function_call_arguments.done":
           renderToolCall(evt.name, evt.arguments);
-          runToolOnBroker(evt.call_id, evt.name, evt.arguments);
-          needsContinuation = true;
+          toolCompletionPromise = runToolOnBroker(evt.call_id, evt.name, evt.arguments);
           break;
         case "response.done":
-          if (needsContinuation) {
-            needsContinuation = false;
-            sendEvent({ type: "response.create" });
+          if (toolCompletionPromise) {
+            const promise = toolCompletionPromise;
+            toolCompletionPromise = null;
+            promise.then(() => {
+              sendEvent({ type: "response.create" });
+            });
           } else {
             finishTurn();
           }
@@ -164,37 +166,42 @@
     }
 
     async function connect() {
-      setStatus("connecting...");
-      const pc = new RTCPeerConnection({ iceServers: [{ urls: "stun:stun.l.google.com:19302" }] });
-      peerConnection = pc;
+      try {
+        setStatus("connecting...");
+        const pc = new RTCPeerConnection({ iceServers: [{ urls: "stun:stun.l.google.com:19302" }] });
+        peerConnection = pc;
 
-      pc.ontrack = (event) => { remoteAudio.srcObject = event.streams[0]; };
+        pc.ontrack = (event) => { remoteAudio.srcObject = event.streams[0]; };
 
-      micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
-      micStream.getTracks().forEach((track) => pc.addTrack(track, micStream));
+        micStream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        micStream.getTracks().forEach((track) => pc.addTrack(track, micStream));
 
-      const dc = pc.createDataChannel(DATA_CHANNEL_LABEL);
-      dataChannel = dc;
-      dc.onopen = () => { setStatus("connected"); setConnectedUi(true); };
-      dc.onmessage = (event) => handleServerEvent(JSON.parse(event.data));
-      dc.onerror = (event) => showError(`Data channel error: ${JSON.stringify(event)}`);
+        const dc = pc.createDataChannel(DATA_CHANNEL_LABEL);
+        dataChannel = dc;
+        dc.onopen = () => { setStatus("connected"); setConnectedUi(true); };
+        dc.onmessage = (event) => handleServerEvent(JSON.parse(event.data));
+        dc.onerror = (event) => showError(`Data channel error: ${JSON.stringify(event)}`);
 
-      const offer = await pc.createOffer();
-      await pc.setLocalDescription(offer);
+        const offer = await pc.createOffer();
+        await pc.setLocalDescription(offer);
 
-      const res = await fetch("/connect", {
-        method: "POST",
-        headers: { "Content-Type": "application/sdp" },
-        body: offer.sdp,
-      });
-      if (!res.ok) {
-        const detail = await res.text();
-        setStatus("error — see below");
-        showError(`/connect failed (${res.status}): ${detail}`);
-        return;
+        const res = await fetch("/connect", {
+          method: "POST",
+          headers: { "Content-Type": "application/sdp" },
+          body: offer.sdp,
+        });
+        if (!res.ok) {
+          const detail = await res.text();
+          showError(`/connect failed (${res.status}): ${detail}`);
+          disconnect();
+          return;
+        }
+        const answerSdp = await res.text();
+        await pc.setRemoteDescription({ type: "answer", sdp: answerSdp });
+      } catch (err) {
+        showError(err.message);
+        disconnect();
       }
-      const answerSdp = await res.text();
-      await pc.setRemoteDescription({ type: "answer", sdp: answerSdp });
     }
 
     function disconnect() {
@@ -204,7 +211,7 @@
       dataChannel = null;
       peerConnection = null;
       micStream = null;
-      needsContinuation = false;
+      toolCompletionPromise = null;
       currentTurnEl = null;
       setStatus("disconnected");
       setConnectedUi(false);
