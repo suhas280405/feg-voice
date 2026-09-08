@@ -46,6 +46,27 @@ for (const m of markets) {
 }
 const lexiconByType = new Map(lexicon.map((e) => [e.marketTypeNameHr, e]));
 
+/**
+ * A compact, one-line-per-fixture catalog of everything actually in the
+ * snapshot — injected into AGENT_INSTRUCTIONS (agentConfig.ts) so the model
+ * can resolve the user's own wording ("the cricket game", a mangled team
+ * name) against the real canonical names itself before ever calling
+ * search_fixtures, instead of passing mangled words through and hoping.
+ * Removes a guess-then-clarify round trip, which matters most in a voice
+ * loop. Reads the same `fixtures` array already loaded above, so a fresh
+ * snapshot is reflected automatically on the next process start — no
+ * separate generation step to keep in sync.
+ */
+export function buildFixtureCatalog(): string {
+  return fixtures
+    .map((f) => {
+      const home = f.home.nameEn ?? f.home.name;
+      const away = f.away.nameEn ?? f.away.name;
+      return `- ${home} vs ${away} — ${f.tournamentNameEn} (${f.sportNameEn}) — ${f.status}`;
+    })
+    .join("\n");
+}
+
 // ---------------------------------------------------------------------------
 // Shared result shapes
 // ---------------------------------------------------------------------------

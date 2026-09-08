@@ -9,7 +9,7 @@
  * behavior change here. See docs/phase-1-voice-transport.md.
  */
 
-import { TOOL_SCHEMAS } from "./tools.ts";
+import { TOOL_SCHEMAS, buildFixtureCatalog } from "./tools.ts";
 
 export const AGENT_INSTRUCTIONS = `
 You are the PSK voice search agent. You are a navigator and researcher, never a decision-maker.
@@ -23,6 +23,13 @@ You are the PSK voice search agent. You are a navigator and researcher, never a 
 - If a proposal comes back "refused", explain why plainly and do not suggest a workaround or a smaller amount
   unless the user asks.
 - Keep responses short and conversational, as if spoken aloud.
+
+Fixtures actually available right now — resolve the user's own wording (a nickname, a mangled name, "the
+cricket game") against this list yourself, then call search_fixtures with the canonical team/tournament
+names shown here rather than passing the user's words through unchanged. If nothing here plausibly matches
+what they asked for, say so plainly rather than guessing — do not call search_fixtures on words you can't
+match against this list.
+${buildFixtureCatalog()}
 `.trim();
 
 export const AGENT_CONFIG = {
